@@ -38,6 +38,7 @@ type gameCenterDetailResource struct {
 type gameCenterDetailModel struct {
 	AppID         types.String `tfsdk:"app_id"`
 	GroupID       types.String `tfsdk:"game_center_group_id"`
+	ChallengeIDs  types.Set    `tfsdk:"challenges_minimum_platform_version_ids"`
 	ArcadeEnabled types.Bool   `tfsdk:"arcade_enabled"`
 	ID            types.String `tfsdk:"id"`
 }
@@ -62,6 +63,11 @@ func (r *gameCenterDetailResource) Schema(_ context.Context, _ resource.SchemaRe
 			"app_id": replacedString("App Store Connect ID of the app."),
 			"game_center_group_id": optionalString("App Store Connect ID of the Game Center group the app shares leaderboards " +
 				"and achievements with, e.g. `apple_game_center_group.example.id`."),
+			"challenges_minimum_platform_version_ids": schema.SetAttribute{
+				MarkdownDescription: "App Store Connect IDs of the App Store versions, one per platform, that are the first to support " +
+					"Game Center challenges. Unset leaves them as they are.",
+				Optional: true, ElementType: types.StringType,
+			},
 			"arcade_enabled": schema.BoolAttribute{MarkdownDescription: "Whether the app is on Apple Arcade.", Computed: true},
 			"id":             idAttribute("App Store Connect ID of the Game Center detail."),
 		},
@@ -82,13 +88,38 @@ func (m *gameCenterDetailModel) apply(d *gen.GameCenterDetail) {
 	if rel := d.Relationships; rel != nil && rel.GameCenterGroup != nil && rel.GameCenterGroup.Data != nil {
 		m.GroupID = types.StringValue(rel.GameCenterGroup.Data.Id)
 	}
+	// The versions are managed only when configured.
+	if !m.ChallengeIDs.IsNull() {
+		var ids []string
+		if rel := d.Relationships; rel != nil && rel.ChallengesMinimumPlatformVersions != nil {
+			for _, v := range asc.Value(rel.ChallengesMinimumPlatformVersions.Data) {
+				ids = append(ids, v.Id)
+			}
+		}
+		m.ChallengeIDs = stringsValue(ids)
+	}
+}
+
+// setChallengeVersions sets the versions that are the minimum for
+// challenges.
+func (r *gameCenterDetailResource) setChallengeVersions(ctx context.Context, id string, versions types.Set, diags *diag.Diagnostics) error {
+	var body gen.GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest
+	body.Data = nil
+	for _, versionID := range setStrings(ctx, versions, diags) {
+		d := asc.Push(&body.Data)
+		d.Id, d.Type = versionID, gen.GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataTypeAppStoreVersions
+	}
+	out, err := r.client.GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithResponse(ctx, id, body)
+	return asc.Err(out, err)
 }
 
 // appGameCenterDetail returns the Game Center detail of an app with its
 // group.
 func appGameCenterDetail(ctx context.Context, c *asc.Client, appID string) (*gen.GameCenterDetail, error) {
 	out, err := c.AppsGameCenterDetailGetToOneRelatedWithResponse(ctx, appID, &gen.AppsGameCenterDetailGetToOneRelatedParams{
-		Include: &[]gen.AppsGameCenterDetailGetToOneRelatedParamsInclude{gen.AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterGroup},
+		Include: &[]gen.AppsGameCenterDetailGetToOneRelatedParamsInclude{
+			gen.AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterGroup, gen.AppsGameCenterDetailGetToOneRelatedParamsIncludeChallengesMinimumPlatformVersions,
+		},
 	})
 	if err := asc.Err(out, err); err != nil {
 		return nil, err
@@ -142,13 +173,16 @@ func (r *gameCenterDetailResource) Create(ctx context.Context, req resource.Crea
 			detail, err = r.setGroup(ctx, detail.Id, knownString(plan.GroupID))
 		}
 	}
+	if err == nil && !plan.ChallengeIDs.IsNull() {
+		err = r.setChallengeVersions(ctx, detail.Id, plan.ChallengeIDs, &resp.Diagnostics)
+	}
 	if err != nil {
 		apiError(&resp.Diagnostics, "enable Game Center", err)
 		return
 	}
-	group := plan.GroupID
+	group, versions := plan.GroupID, plan.ChallengeIDs
 	plan.apply(detail)
-	plan.GroupID = group
+	plan.GroupID, plan.ChallengeIDs = group, versions
 	resp.Diagnostics.Append(resp.State.Set(ctx, &plan)...)
 }
 
@@ -180,13 +214,16 @@ func (r *gameCenterDetailResource) Update(ctx context.Context, req resource.Upda
 		return
 	}
 	detail, err := r.setGroup(ctx, plan.ID.ValueString(), knownString(plan.GroupID))
+	if err == nil && !plan.ChallengeIDs.IsNull() {
+		err = r.setChallengeVersions(ctx, plan.ID.ValueString(), plan.ChallengeIDs, &resp.Diagnostics)
+	}
 	if err != nil {
 		apiError(&resp.Diagnostics, "update Game Center detail", err)
 		return
 	}
-	group := plan.GroupID
+	group, versions := plan.GroupID, plan.ChallengeIDs
 	plan.apply(detail)
-	plan.GroupID = group
+	plan.GroupID, plan.ChallengeIDs = group, versions
 	resp.Diagnostics.Append(resp.State.Set(ctx, &plan)...)
 }
 

@@ -75,3 +75,11 @@ func (s *Server) GameCenterLeaderboardImagesV2UpdateInstance(w http.ResponseWrit
 func (s *Server) GameCenterLeaderboardImagesV2DeleteInstance(w http.ResponseWriter, _ *http.Request, id string) {
 	s.gcDeleteImage(w, gcLeaderboards, id)
 }
+
+func (s *Server) GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	s.gcReplaceOrder(w, r, gcLeaderboards, id, "")
+}
+
+func (s *Server) GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	s.gcReplaceOrder(w, r, gcLeaderboards, "", id)
+}

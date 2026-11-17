@@ -374,21 +374,28 @@ output-options:
     - gameCenterChallenges_getInstance
     - gameCenterChallenges_updateInstance
     - gameCenterChallenges_versions_getToManyRelated
+    - gameCenterDetails_challengesMinimumPlatformVersions_replaceToManyRelationship
     - gameCenterDetails_createInstance
     - gameCenterDetails_gameCenterAchievementsV2_getToManyRelated
+    - gameCenterDetails_gameCenterAchievementsV2_replaceToManyRelationship
     - gameCenterDetails_gameCenterActivities_getToManyRelated
     - gameCenterDetails_gameCenterAppVersions_getToManyRelated
     - gameCenterDetails_gameCenterChallenges_getToManyRelated
     - gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated
+    - gameCenterDetails_gameCenterLeaderboardSetsV2_replaceToManyRelationship
     - gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelated
+    - gameCenterDetails_gameCenterLeaderboardsV2_replaceToManyRelationship
     - gameCenterDetails_updateInstance
     - gameCenterGroups_createInstance
     - gameCenterGroups_deleteInstance
     - gameCenterGroups_gameCenterAchievementsV2_getToManyRelated
+    - gameCenterGroups_gameCenterAchievementsV2_replaceToManyRelationship
     - gameCenterGroups_gameCenterActivities_getToManyRelated
     - gameCenterGroups_gameCenterChallenges_getToManyRelated
     - gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated
+    - gameCenterGroups_gameCenterLeaderboardSetsV2_replaceToManyRelationship
     - gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelated
+    - gameCenterGroups_gameCenterLeaderboardsV2_replaceToManyRelationship
     - gameCenterGroups_getCollection
     - gameCenterGroups_getInstance
     - gameCenterGroups_updateInstance
@@ -417,6 +424,7 @@ output-options:
     - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_createToManyRelationship
     - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_deleteToManyRelationship
     - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelated
+    - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_replaceToManyRelationship
     - gameCenterLeaderboardSetsV2_getInstance
     - gameCenterLeaderboardSetsV2_updateInstance
     - gameCenterLeaderboardSetsV2_versions_getToManyRelated

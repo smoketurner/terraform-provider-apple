@@ -102,12 +102,15 @@ type gcItemsState struct {
 	// setMembers maps a leaderboard set's ID to its leaderboards, in order.
 	setMembers          map[string][]string
 	memberLocalizations map[string]*setMemberLocalization
+	// order maps a kind and the detail or group that owns its items to the
+	// IDs in the order they are listed; items it doesn't name come last.
+	order map[string][]string
 }
 
 func newGCItemsState() *gcItemsState {
 	return &gcItemsState{
 		items: map[string]*gcItem{}, versions: map[string]*gcVersion{}, localizations: map[string]*gcLocalization{},
-		setMembers: map[string][]string{}, memberLocalizations: map[string]*setMemberLocalization{},
+		setMembers: map[string][]string{}, memberLocalizations: map[string]*setMemberLocalization{}, order: map[string][]string{},
 	}
 }
 
@@ -354,12 +357,63 @@ func (s *Server) gcListItems(w http.ResponseWriter, r *http.Request, kind gcKind
 		return
 	}
 	var items []map[string]any
-	for _, i := range sortedValues(s.gcItems.items) {
-		if i.kind == kind.items && i.detailID == detailID && i.groupID == groupID && match(i) {
+	for _, i := range s.ownedGCItems(kind, detailID, groupID) {
+		if match(i) {
 			items = append(items, s.renderGCItem(i))
 		}
 	}
 	s.writeGCPage(w, r, items, limit)
+}
+
+// ownedGCItems returns the kind's items of a detail or a group in their
+// order.
+func (s *Server) ownedGCItems(kind gcKind, detailID, groupID string) []*gcItem {
+	var owned []*gcItem
+	for _, i := range sortedValues(s.gcItems.items) {
+		if i.kind == kind.items && i.detailID == detailID && i.groupID == groupID {
+			owned = append(owned, i)
+		}
+	}
+	order := s.gcItems.order[kind.items+"/"+detailID+groupID]
+	position := func(i *gcItem) int {
+		if at := slices.Index(order, i.id); at >= 0 {
+			return at
+		}
+		return len(order)
+	}
+	slices.SortStableFunc(owned, func(a, b *gcItem) int { return position(a) - position(b) })
+	return owned
+}
+
+// gcReplaceOrder sets the order of the kind's items of a detail or a group.
+// The request names each of them once: the relationship can't add or remove
+// items.
+func (s *Server) gcReplaceOrder(w http.ResponseWriter, r *http.Request, kind gcKind, detailID, groupID string) {
+	var req struct {
+		Data []struct {
+			ID string `json:"id"`
+		} `json:"data"`
+	}
+	if !decode(w, r, &req) {
+		return
+	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	owned := s.ownedGCItems(kind, detailID, groupID)
+	var ids []string
+	for _, d := range req.Data {
+		if !slices.ContainsFunc(owned, func(i *gcItem) bool { return i.id == d.ID }) || slices.Contains(ids, d.ID) {
+			conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind.items+" with id '"+d.ID+"' here, or it is named twice.", "/data")
+			return
+		}
+		ids = append(ids, d.ID)
+	}
+	if len(ids) != len(owned) {
+		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The request must name every one of the "+kind.items+".", "/data")
+		return
+	}
+	s.gcItems.order[kind.items+"/"+detailID+groupID] = ids
+	w.WriteHeader(http.StatusNoContent)
 }
 
 func (s *Server) writeGCPage(w http.ResponseWriter, r *http.Request, items []map[string]any, limit *int) {

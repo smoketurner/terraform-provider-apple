@@ -75,3 +75,11 @@ func (s *Server) GameCenterAchievementImagesV2UpdateInstance(w http.ResponseWrit
 func (s *Server) GameCenterAchievementImagesV2DeleteInstance(w http.ResponseWriter, _ *http.Request, id string) {
 	s.gcDeleteImage(w, gcAchievements, id)
 }
+
+func (s *Server) GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	s.gcReplaceOrder(w, r, gcAchievements, id, "")
+}
+
+func (s *Server) GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	s.gcReplaceOrder(w, r, gcAchievements, "", id)
+}

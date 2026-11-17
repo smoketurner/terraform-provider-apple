@@ -15425,6 +15425,21 @@ func (e GameCenterDetailType) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType.
+const (
+	GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataTypeAppStoreVersions GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType = "appStoreVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType enum.
+func (e GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataTypeAppStoreVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterDetailCreateRequestDataRelationshipsAppDataType.
 const (
 	GameCenterDetailCreateRequestDataRelationshipsAppDataTypeApps GameCenterDetailCreateRequestDataRelationshipsAppDataType = "apps"
@@ -15449,6 +15464,51 @@ const (
 func (e GameCenterDetailCreateRequestDataType) Valid() bool {
 	switch e {
 	case GameCenterDetailCreateRequestDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType.
+const (
+	GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataTypeGameCenterAchievements GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType enum.
+func (e GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType.
+const (
+	GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataTypeGameCenterLeaderboardSets GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType enum.
+func (e GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType.
+const (
+	GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataTypeGameCenterLeaderboards GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType enum.
+func (e GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataTypeGameCenterLeaderboards:
 		return true
 	default:
 		return false
@@ -15749,6 +15809,51 @@ const (
 func (e GameCenterGroupCreateRequestDataType) Valid() bool {
 	switch e {
 	case GameCenterGroupCreateRequestDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType.
+const (
+	GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataTypeGameCenterAchievements GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType enum.
+func (e GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType.
+const (
+	GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataTypeGameCenterLeaderboardSets GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType enum.
+func (e GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType.
+const (
+	GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataTypeGameCenterLeaderboards GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType enum.
+func (e GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataTypeGameCenterLeaderboards:
 		return true
 	default:
 		return false
@@ -86212,6 +86317,17 @@ type GameCenterDetailRelationshipsLeaderboardSetReleasesDataType string
 // GameCenterDetailType defines model for GameCenterDetail.Type.
 type GameCenterDetailType string
 
+// GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest defines model for GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest.
+type GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                                   `json:"id"`
+		Type GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType defines model for GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest.Data.Type.
+type GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequestDataType string
+
 // GameCenterDetailCreateRequest defines model for GameCenterDetailCreateRequest.
 type GameCenterDetailCreateRequest struct {
 	Data struct {
@@ -86236,6 +86352,39 @@ type GameCenterDetailCreateRequestDataRelationshipsAppDataType string
 
 // GameCenterDetailCreateRequestDataType defines model for GameCenterDetailCreateRequest.Data.Type.
 type GameCenterDetailCreateRequestDataType string
+
+// GameCenterDetailGameCenterAchievementsV2LinkagesRequest defines model for GameCenterDetailGameCenterAchievementsV2LinkagesRequest.
+type GameCenterDetailGameCenterAchievementsV2LinkagesRequest struct {
+	Data []struct {
+		Id   string                                                          `json:"id"`
+		Type GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType defines model for GameCenterDetailGameCenterAchievementsV2LinkagesRequest.Data.Type.
+type GameCenterDetailGameCenterAchievementsV2LinkagesRequestDataType string
+
+// GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequest defines model for GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequest.
+type GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequest struct {
+	Data []struct {
+		Id   string                                                             `json:"id"`
+		Type GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType defines model for GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequest.Data.Type.
+type GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequestDataType string
+
+// GameCenterDetailGameCenterLeaderboardsV2LinkagesRequest defines model for GameCenterDetailGameCenterLeaderboardsV2LinkagesRequest.
+type GameCenterDetailGameCenterLeaderboardsV2LinkagesRequest struct {
+	Data []struct {
+		Id   string                                                          `json:"id"`
+		Type GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType defines model for GameCenterDetailGameCenterLeaderboardsV2LinkagesRequest.Data.Type.
+type GameCenterDetailGameCenterLeaderboardsV2LinkagesRequestDataType string
 
 // GameCenterDetailResponse defines model for GameCenterDetailResponse.
 type GameCenterDetailResponse struct {
@@ -86481,6 +86630,39 @@ type GameCenterGroupCreateRequest struct {
 
 // GameCenterGroupCreateRequestDataType defines model for GameCenterGroupCreateRequest.Data.Type.
 type GameCenterGroupCreateRequestDataType string
+
+// GameCenterGroupGameCenterAchievementsV2LinkagesRequest defines model for GameCenterGroupGameCenterAchievementsV2LinkagesRequest.
+type GameCenterGroupGameCenterAchievementsV2LinkagesRequest struct {
+	Data []struct {
+		Id   string                                                         `json:"id"`
+		Type GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType defines model for GameCenterGroupGameCenterAchievementsV2LinkagesRequest.Data.Type.
+type GameCenterGroupGameCenterAchievementsV2LinkagesRequestDataType string
+
+// GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequest defines model for GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequest.
+type GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequest struct {
+	Data []struct {
+		Id   string                                                            `json:"id"`
+		Type GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType defines model for GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequest.Data.Type.
+type GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequestDataType string
+
+// GameCenterGroupGameCenterLeaderboardsV2LinkagesRequest defines model for GameCenterGroupGameCenterLeaderboardsV2LinkagesRequest.
+type GameCenterGroupGameCenterLeaderboardsV2LinkagesRequest struct {
+	Data []struct {
+		Id   string                                                         `json:"id"`
+		Type GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType defines model for GameCenterGroupGameCenterLeaderboardsV2LinkagesRequest.Data.Type.
+type GameCenterGroupGameCenterLeaderboardsV2LinkagesRequestDataType string
 
 // GameCenterGroupResponse defines model for GameCenterGroupResponse.
 type GameCenterGroupResponse struct {
@@ -104897,11 +105079,32 @@ type GameCenterDetailsCreateInstanceJSONRequestBody = GameCenterDetailCreateRequ
 // GameCenterDetailsUpdateInstanceJSONRequestBody defines body for GameCenterDetailsUpdateInstance for application/json ContentType.
 type GameCenterDetailsUpdateInstanceJSONRequestBody = GameCenterDetailUpdateRequest
 
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody defines body for GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship for application/json ContentType.
+type GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody = GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest
+
+// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody defines body for GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship for application/json ContentType.
+type GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody = GameCenterDetailGameCenterAchievementsV2LinkagesRequest
+
+// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody defines body for GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship for application/json ContentType.
+type GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody = GameCenterDetailGameCenterLeaderboardSetsV2LinkagesRequest
+
+// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody defines body for GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship for application/json ContentType.
+type GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody = GameCenterDetailGameCenterLeaderboardsV2LinkagesRequest
+
 // GameCenterGroupsCreateInstanceJSONRequestBody defines body for GameCenterGroupsCreateInstance for application/json ContentType.
 type GameCenterGroupsCreateInstanceJSONRequestBody = GameCenterGroupCreateRequest
 
 // GameCenterGroupsUpdateInstanceJSONRequestBody defines body for GameCenterGroupsUpdateInstance for application/json ContentType.
 type GameCenterGroupsUpdateInstanceJSONRequestBody = GameCenterGroupUpdateRequest
+
+// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody defines body for GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship for application/json ContentType.
+type GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody = GameCenterGroupGameCenterAchievementsV2LinkagesRequest
+
+// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody defines body for GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship for application/json ContentType.
+type GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody = GameCenterGroupGameCenterLeaderboardSetsV2LinkagesRequest
+
+// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody defines body for GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship for application/json ContentType.
+type GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody = GameCenterGroupGameCenterLeaderboardsV2LinkagesRequest
 
 // GameCenterLeaderboardSetMemberLocalizationsCreateInstanceJSONRequestBody defines body for GameCenterLeaderboardSetMemberLocalizationsCreateInstance for application/json ContentType.
 type GameCenterLeaderboardSetMemberLocalizationsCreateInstanceJSONRequestBody = GameCenterLeaderboardSetMemberLocalizationCreateRequest
@@ -105208,6 +105411,9 @@ type GameCenterLeaderboardSetsV2UpdateInstanceJSONRequestBody = GameCenterLeader
 
 // GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipJSONRequestBody defines body for GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship for application/json ContentType.
 type GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipJSONRequestBody = GameCenterLeaderboardSetV2GameCenterLeaderboardsLinkagesRequest
+
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody defines body for GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship for application/json ContentType.
+type GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody = GameCenterLeaderboardSetV2GameCenterLeaderboardsLinkagesRequest
 
 // GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipJSONRequestBody defines body for GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship for application/json ContentType.
 type GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipJSONRequestBody = GameCenterLeaderboardSetV2GameCenterLeaderboardsLinkagesRequest
@@ -133231,6 +133437,38 @@ type ClientInterface interface {
 	// GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelated` operationId) request.
 	GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// GameCenterGroupsGetCollection performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
 	GameCenterGroupsGetCollection(ctx context.Context, params *GameCenterGroupsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -133270,6 +133508,30 @@ type ClientInterface interface {
 
 	// GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated performs a GET /v1/gameCenterGroups/{id}/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated` operationId) request.
 	GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// GameCenterLeaderboardSetMemberLocalizationsGetCollection performs a GET /v1/gameCenterLeaderboardSetMemberLocalizations (the `GameCenterLeaderboardSetMemberLocalizationsGetCollection` operationId) request.
 	GameCenterLeaderboardSetMemberLocalizationsGetCollection(ctx context.Context, params *GameCenterLeaderboardSetMemberLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -134461,6 +134723,14 @@ type ClientInterface interface {
 	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship performs a DELETE /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type.
 	GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBody performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipWithBody performs a POST /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -141360,6 +141630,118 @@ func (c *Client) GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelated(ctx c
 	return c.Client.Do(req)
 }
 
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // GameCenterGroupsGetCollection performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
 func (c *Client) GameCenterGroupsGetCollection(ctx context.Context, params *GameCenterGroupsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewGameCenterGroupsGetCollectionRequest(c.Server, params)
@@ -141510,6 +141892,90 @@ func (c *Client) GameCenterGroupsGameCenterLeaderboardSetsV2GetToManyRelated(ctx
 // GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated performs a GET /v1/gameCenterGroups/{id}/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated` operationId) request.
 func (c *Client) GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewGameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -145991,6 +146457,34 @@ func (c *Client) GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRe
 // Takes a body of the `application/json` content type.
 func (c *Client) GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBody performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -175677,6 +176171,194 @@ func NewGameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedRequest(server 
 	return req, nil
 }
 
+// NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequest calls the generic GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship builder with application/json body
+func NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequest(server string, id string, body GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s/relationships/challengesMinimumPlatformVersions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequest calls the generic GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship builder with application/json body
+func NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequest(server string, id string, body GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s/relationships/gameCenterAchievementsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequest calls the generic GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship builder with application/json body
+func NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequest(server string, id string, body GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s/relationships/gameCenterLeaderboardSetsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequest calls the generic GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship builder with application/json body
+func NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequest(server string, id string, body GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s/relationships/gameCenterLeaderboardsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewGameCenterGroupsGetCollectionRequest constructs an http.Request for the GameCenterGroupsGetCollection method
 func NewGameCenterGroupsGetCollectionRequest(server string, params *GameCenterGroupsGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -177282,6 +177964,147 @@ func NewGameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedRequest(server s
 	if err != nil {
 		return nil, err
 	}
+
+	return req, nil
+}
+
+// NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequest calls the generic GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship builder with application/json body
+func NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequest(server string, id string, body GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s/relationships/gameCenterAchievementsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequest calls the generic GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship builder with application/json body
+func NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequest(server string, id string, body GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s/relationships/gameCenterLeaderboardSetsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequest calls the generic GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship builder with application/json body
+func NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequest(server string, id string, body GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s/relationships/gameCenterLeaderboardsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
 
 	return req, nil
 }
@@ -193439,6 +194262,53 @@ func NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshi
 	return req, nil
 }
 
+// NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequest calls the generic GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship builder with application/json body
+func NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequest(server string, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship method, with any body, and a specified content type
+func NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterLeaderboardSets/%s/relationships/gameCenterLeaderboards", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipRequest calls the generic GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship builder with application/json body
 func NewGameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipRequest(server string, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -198615,6 +199485,46 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedResponse, error)
 
+	// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error)
+
 	// GameCenterGroupsGetCollectionWithResponse performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -198674,6 +199584,36 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedResponse, error)
+
+	// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error)
+
+	// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error)
 
 	// GameCenterLeaderboardSetMemberLocalizationsGetCollectionWithResponse performs a GET /v1/gameCenterLeaderboardSetMemberLocalizations (the `GameCenterLeaderboardSetMemberLocalizationsGetCollection` operationId) request.
 	//
@@ -200319,6 +201259,16 @@ type ClientWithResponsesInterface interface {
 	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipWithResponse performs a DELETE /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipResponse, error)
+
+	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse, error)
+
+	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithResponse performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse, error)
 
 	// GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipWithBodyWithResponse performs a POST /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -227813,6 +228763,338 @@ func (r GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedResponse) Conte
 	return ""
 }
 
+type GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type GameCenterGroupsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -228574,6 +229856,255 @@ func (r GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedResponse) Status
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -246483,6 +248014,89 @@ func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshi
 	return ""
 }
 
+type GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -254985,6 +256599,94 @@ func (c *ClientWithResponses) GameCenterDetailsGameCenterLeaderboardsV2GetToMany
 	return ParseGameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedResponse(rsp)
 }
 
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions (the `GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
 // GameCenterGroupsGetCollectionWithResponse performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -255115,6 +256817,72 @@ func (c *ClientWithResponses) GameCenterGroupsGameCenterLeaderboardsV2GetToManyR
 		return nil, err
 	}
 	return ParseGameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2 (the `GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse performs a PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2 (the `GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse(rsp)
 }
 
 // GameCenterLeaderboardSetMemberLocalizationsGetCollectionWithResponse performs a GET /v1/gameCenterLeaderboardSetMemberLocalizations (the `GameCenterLeaderboardSetMemberLocalizationsGetCollection` operationId) request.
@@ -258734,6 +260502,28 @@ func (c *ClientWithResponses) GameCenterLeaderboardSetsV2GameCenterLeaderboardsD
 		return nil, err
 	}
 	return ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationshipResponse(rsp)
+}
+
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse(rsp)
+}
+
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithResponse performs a PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse(rsp)
 }
 
 // GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipWithBodyWithResponse performs a POST /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards (the `GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship` operationId) request,
@@ -281602,6 +283392,290 @@ func ParseGameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedResponse(rsp 
 	return response, nil
 }
 
+// ParseGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipWithResponse call
+func ParseGameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse call
+func ParseGameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse call
+func ParseGameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse call
+func ParseGameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseGameCenterGroupsGetCollectionResponse parses an HTTP response from a GameCenterGroupsGetCollectionWithResponse call
 func ParseGameCenterGroupsGetCollectionResponse(rsp *http.Response) (*GameCenterGroupsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -282209,6 +284283,219 @@ func ParseGameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedResponse(rsp *
 			return nil, err
 		}
 		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipWithResponse call
+func ParseGameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipWithResponse call
+func ParseGameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipWithResponse call
+func ParseGameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -296858,6 +299145,77 @@ func ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelations
 	return response, nil
 }
 
+// ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse parses an HTTP response from a GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipWithResponse call
+func ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse(rsp *http.Response) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipResponse parses an HTTP response from a GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipWithResponse call
 func ParseGameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipResponse(rsp *http.Response) (*GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationshipResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -300431,6 +302789,18 @@ type ServerInterface interface {
 	// (GET /v1/gameCenterDetails/{id}/gameCenterLeaderboardsV2)
 	GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelatedParams)
 
+	// (PATCH /v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions)
+	GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2)
+	GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2)
+	GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2)
+	GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
 	// (GET /v1/gameCenterGroups)
 	GameCenterGroupsGetCollection(w http.ResponseWriter, r *http.Request, params GameCenterGroupsGetCollectionParams)
 
@@ -300460,6 +302830,15 @@ type ServerInterface interface {
 
 	// (GET /v1/gameCenterGroups/{id}/gameCenterLeaderboardsV2)
 	GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelatedParams)
+
+	// (PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2)
+	GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2)
+	GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2)
+	GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 
 	// (GET /v1/gameCenterLeaderboardSetMemberLocalizations)
 	GameCenterLeaderboardSetMemberLocalizationsGetCollection(w http.ResponseWriter, r *http.Request, params GameCenterLeaderboardSetMemberLocalizationsGetCollectionParams)
@@ -301141,6 +303520,9 @@ type ServerInterface interface {
 
 	// (DELETE /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards)
 	GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards)
+	GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 
 	// (POST /v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards)
 	GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
@@ -324414,6 +326796,110 @@ func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterLeaderboardsV2GetT
 	handler.ServeHTTP(w, r)
 }
 
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // GameCenterGroupsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) GameCenterGroupsGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -325913,6 +328399,84 @@ func (siw *ServerInterfaceWrapper) GameCenterGroupsGameCenterLeaderboardsV2GetTo
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -338129,6 +340693,32 @@ func (siw *ServerInterfaceWrapper) GameCenterLeaderboardSetsV2GameCenterLeaderbo
 	handler.ServeHTTP(w, r)
 }
 
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship operation middleware
 func (siw *ServerInterfaceWrapper) GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship(w http.ResponseWriter, r *http.Request) {
 
@@ -340586,6 +343176,10 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/gameCenterChallenges", wrapper.GameCenterDetailsGameCenterChallengesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/gameCenterLeaderboardSetsV2", wrapper.GameCenterDetailsGameCenterLeaderboardSetsV2GetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/gameCenterLeaderboardsV2", wrapper.GameCenterDetailsGameCenterLeaderboardsV2GetToManyRelated)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/relationships/challengesMinimumPlatformVersions", wrapper.GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/relationships/gameCenterAchievementsV2", wrapper.GameCenterDetailsGameCenterAchievementsV2ReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardSetsV2", wrapper.GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/relationships/gameCenterLeaderboardsV2", wrapper.GameCenterDetailsGameCenterLeaderboardsV2ReplaceToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups", wrapper.GameCenterGroupsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterGroups", wrapper.GameCenterGroupsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsDeleteInstance)
@@ -340596,6 +343190,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/gameCenterChallenges", wrapper.GameCenterGroupsGameCenterChallengesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/gameCenterLeaderboardSetsV2", wrapper.GameCenterGroupsGameCenterLeaderboardSetsV2GetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/gameCenterLeaderboardsV2", wrapper.GameCenterGroupsGameCenterLeaderboardsV2GetToManyRelated)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/relationships/gameCenterAchievementsV2", wrapper.GameCenterGroupsGameCenterAchievementsV2ReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardSetsV2", wrapper.GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/relationships/gameCenterLeaderboardsV2", wrapper.GameCenterGroupsGameCenterLeaderboardsV2ReplaceToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterLeaderboardSetMemberLocalizations", wrapper.GameCenterLeaderboardSetMemberLocalizationsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterLeaderboardSetMemberLocalizations", wrapper.GameCenterLeaderboardSetMemberLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterLeaderboardSetMemberLocalizations/{id}", wrapper.GameCenterLeaderboardSetMemberLocalizationsDeleteInstance)
@@ -340823,6 +343420,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/gameCenterLeaderboardSets/{id}", wrapper.GameCenterLeaderboardSetsV2UpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/gameCenterLeaderboardSets/{id}/gameCenterLeaderboards", wrapper.GameCenterLeaderboardSetsV2GameCenterLeaderboardsGetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards", wrapper.GameCenterLeaderboardSetsV2GameCenterLeaderboardsDeleteToManyRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards", wrapper.GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/gameCenterLeaderboardSets/{id}/relationships/gameCenterLeaderboards", wrapper.GameCenterLeaderboardSetsV2GameCenterLeaderboardsCreateToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/gameCenterLeaderboardSets/{id}/versions", wrapper.GameCenterLeaderboardSetsV2VersionsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/gameCenterLeaderboardVersions", wrapper.GameCenterLeaderboardVersionsV2CreateInstance)

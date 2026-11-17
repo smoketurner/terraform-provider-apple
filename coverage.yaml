@@ -786,12 +786,12 @@ operations:
   gameCenterDetails_blockedPlayers_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterDetails_challengeReleases_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_challengeReleases_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterDetails_challengesMinimumPlatformVersions_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterDetails_challengesMinimumPlatformVersions_replaceToManyRelationship: {status: covered, by: [apple_game_center_detail]}
   gameCenterDetails_classicMatchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterDetails_createInstance: {status: covered, by: [apple_game_center_detail]}
-  gameCenterDetails_gameCenterAchievementsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_achievements]}
+  gameCenterDetails_gameCenterAchievementsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_achievements, apple_game_center_achievement_order]}
   gameCenterDetails_gameCenterAchievementsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterDetails_gameCenterAchievementsV2_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterDetails_gameCenterAchievementsV2_replaceToManyRelationship: {status: covered, by: [apple_game_center_achievement_order]}
   gameCenterDetails_gameCenterAchievements_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_gameCenterAchievements_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_gameCenterAchievements_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -803,15 +803,15 @@ operations:
   gameCenterDetails_gameCenterChallenges_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterDetails_gameCenterGroup_getToOneRelated: {status: out_of_scope, reason: "apple_game_center_detail reads the group with the detail"}
   gameCenterDetails_gameCenterGroup_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboard_sets]}
+  gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboard_sets, apple_game_center_leaderboard_set_order]}
   gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterDetails_gameCenterLeaderboardSetsV2_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterDetails_gameCenterLeaderboardSetsV2_replaceToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_order]}
   gameCenterDetails_gameCenterLeaderboardSets_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_gameCenterLeaderboardSets_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_gameCenterLeaderboardSets_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboards]}
+  gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboards, apple_game_center_leaderboard_order]}
   gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterDetails_gameCenterLeaderboardsV2_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterDetails_gameCenterLeaderboardsV2_replaceToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_order]}
   gameCenterDetails_gameCenterLeaderboards_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_gameCenterLeaderboards_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterDetails_gameCenterLeaderboards_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -829,9 +829,9 @@ operations:
   gameCenterEnabledVersions_compatibleVersions_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_createInstance: {status: covered, by: [apple_game_center_group]}
   gameCenterGroups_deleteInstance: {status: covered, by: [apple_game_center_group]}
-  gameCenterGroups_gameCenterAchievementsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_achievements]}
+  gameCenterGroups_gameCenterAchievementsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_achievements, apple_game_center_achievement_order]}
   gameCenterGroups_gameCenterAchievementsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterGroups_gameCenterAchievementsV2_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterGroups_gameCenterAchievementsV2_replaceToManyRelationship: {status: covered, by: [apple_game_center_achievement_order]}
   gameCenterGroups_gameCenterAchievements_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_gameCenterAchievements_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_gameCenterAchievements_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -841,15 +841,15 @@ operations:
   gameCenterGroups_gameCenterChallenges_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterGroups_gameCenterDetails_getToManyRelated: {status: out_of_scope, reason: "apple_game_center_detail records each app's group"}
   gameCenterGroups_gameCenterDetails_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboard_sets]}
+  gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboard_sets, apple_game_center_leaderboard_set_order]}
   gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterGroups_gameCenterLeaderboardSetsV2_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterGroups_gameCenterLeaderboardSetsV2_replaceToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_order]}
   gameCenterGroups_gameCenterLeaderboardSets_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_gameCenterLeaderboardSets_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_gameCenterLeaderboardSets_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboards]}
+  gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboards, apple_game_center_leaderboard_order]}
   gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterGroups_gameCenterLeaderboardsV2_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterGroups_gameCenterLeaderboardsV2_replaceToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_order]}
   gameCenterGroups_gameCenterLeaderboards_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_gameCenterLeaderboards_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_gameCenterLeaderboards_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -919,9 +919,9 @@ operations:
   gameCenterLeaderboardSetsV2_deleteInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
   gameCenterLeaderboardSetsV2_gameCenterLeaderboards_createToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_member]}
   gameCenterLeaderboardSetsV2_gameCenterLeaderboards_deleteToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_member]}
-  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelated: {status: covered, by: [apple_game_center_leaderboard_set_member]}
+  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelated: {status: covered, by: [apple_game_center_leaderboard_set_member, apple_game_center_leaderboard_set_member_order]}
   gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_replaceToManyRelationship: {status: planned, issue: 13}
+  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_replaceToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_member_order]}
   gameCenterLeaderboardSetsV2_getInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
   gameCenterLeaderboardSetsV2_updateInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
   gameCenterLeaderboardSetsV2_versions_getToManyRelated: {status: covered, by: [apple_game_center_leaderboard_set_localization, apple_game_center_leaderboard_set_image, action.apple_submit_game_center_leaderboard_set]}

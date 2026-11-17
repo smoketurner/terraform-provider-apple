@@ -21,6 +21,9 @@ import (
 
 type gameCenterDetail struct {
 	id, appID, groupID string
+	// challengeVersions holds the App Store versions that are the minimum
+	// for challenges, one per platform.
+	challengeVersions []string
 }
 
 type gameCenterAppVersion struct {
@@ -42,7 +45,7 @@ func newGameCenterState() *gameCenterState {
 // ---- details ----
 
 func renderGameCenterDetail(d *gameCenterDetail) gen.GameCenterDetail {
-	relationships := map[string]any{"app": oneLinkage("apps", d.appID)}
+	relationships := map[string]any{"app": oneLinkage("apps", d.appID), "challengesMinimumPlatformVersions": linkageData("appStoreVersions", d.challengeVersions...)}
 	if d.groupID != "" {
 		relationships["gameCenterGroup"] = oneLinkage("gameCenterGroups", d.groupID)
 	}
@@ -130,6 +133,32 @@ func (s *Server) GameCenterDetailsUpdateInstance(w http.ResponseWriter, r *http.
 		d.groupID = groupID
 	}
 	writeJSON(w, http.StatusOK, gen.GameCenterDetailResponse{Data: renderGameCenterDetail(d), Links: docLinks(r)})
+}
+
+// GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship sets
+// the app's versions that are the minimum for challenges.
+func (s *Server) GameCenterDetailsChallengesMinimumPlatformVersionsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	var req gen.GameCenterDetailChallengesMinimumPlatformVersionsLinkagesRequest
+	if !decode(w, r, &req) {
+		return
+	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	d, ok := s.gameCenter.details[id]
+	if !ok {
+		notFound(w, "gameCenterDetails", id)
+		return
+	}
+	versions := []string{}
+	for _, v := range req.Data {
+		if version, ok := s.versions.versions[v.Id]; !ok || version.appID != d.appID {
+			conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The app has no appStoreVersions with id '"+v.Id+"'", "/data")
+			return
+		}
+		versions = append(versions, v.Id)
+	}
+	d.challengeVersions = versions
+	w.WriteHeader(http.StatusNoContent)
 }
 
 // ---- groups ----

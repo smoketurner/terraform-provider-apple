@@ -101,6 +101,31 @@ func (s *Server) GameCenterLeaderboardSetsV2GameCenterLeaderboardsGetToManyRelat
 	s.writeGCPage(w, r, items, params.Limit)
 }
 
+// GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship replaces
+// a set's leaderboards with the ones the request names, in order.
+func (s *Server) GameCenterLeaderboardSetsV2GameCenterLeaderboardsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	var req gen.GameCenterLeaderboardSetV2GameCenterLeaderboardsLinkagesRequest
+	if !decode(w, r, &req) {
+		return
+	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	set := s.findGCItem(w, gcSets, id)
+	if set == nil {
+		return
+	}
+	var members []string
+	for _, d := range req.Data {
+		if !s.gcLinkable(set, gcLeaderboards, d.Id) || slices.Contains(members, d.Id) {
+			conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The set's app or group has no gameCenterLeaderboards with id '"+d.Id+"', or it is named twice.", "/data")
+			return
+		}
+		members = append(members, d.Id)
+	}
+	s.gcItems.setMembers[id] = members
+	w.WriteHeader(http.StatusNoContent)
+}
+
 // setMembers adds leaderboards to a set, or removes them. A member belongs
 // to the set's app or group.
 func (s *Server) setMembers(w http.ResponseWriter, r *http.Request, id string, add bool) {
@@ -212,4 +237,12 @@ func (s *Server) GameCenterLeaderboardSetMemberLocalizationsDeleteInstance(w htt
 	}
 	delete(s.gcItems.memberLocalizations, id)
 	w.WriteHeader(http.StatusNoContent)
+}
+
+func (s *Server) GameCenterDetailsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	s.gcReplaceOrder(w, r, gcSets, id, "")
+}
+
+func (s *Server) GameCenterGroupsGameCenterLeaderboardSetsV2ReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string) {
+	s.gcReplaceOrder(w, r, gcSets, "", id)
 }

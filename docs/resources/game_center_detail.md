@@ -28,6 +28,7 @@ resource "apple_game_center_detail" "example" {
 
 ### Optional
 
+- `challenges_minimum_platform_version_ids` (Set of String) App Store Connect IDs of the App Store versions, one per platform, that are the first to support Game Center challenges. Unset leaves them as they are.
 - `game_center_group_id` (String) App Store Connect ID of the Game Center group the app shares leaderboards and achievements with, e.g. `apple_game_center_group.example.id`.
 
 ### Read-Only
