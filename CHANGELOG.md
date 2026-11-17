@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.4.0](https://github.com/smoketurner/terraform-provider-apple/compare/v0.3.0...v0.4.0) (2026-11-17)
+
+
+### Features
+
+* add advanced App Clip experiences and tester invocations ([#117](https://github.com/smoketurner/terraform-provider-apple/issues/117)) ([3fd96ba](https://github.com/smoketurner/terraform-provider-apple/commit/3fd96ba1d1f7d4166a1e09b88d3b31958c678303))
+* add alternative distribution resources ([#118](https://github.com/smoketurner/terraform-provider-apple/issues/118)) ([49b990b](https://github.com/smoketurner/terraform-provider-apple/commit/49b990b08327a7bea4e2ac3f2d9ea33b54b4bef9))
+* add analytics report requests and report lookups ([#121](https://github.com/smoketurner/terraform-provider-apple/issues/121)) ([3042f76](https://github.com/smoketurner/terraform-provider-apple/commit/3042f7654442becdd7c84a33aa7cf20124d33fa6))
+* add custom product pages ([#112](https://github.com/smoketurner/terraform-provider-apple/issues/112)) ([6e9a6db](https://github.com/smoketurner/terraform-provider-apple/commit/6e9a6db7e8fdbeb7c65a73d9c9a8434b3a8adbeb))
+* add default App Clip experiences ([#116](https://github.com/smoketurner/terraform-provider-apple/issues/116)) ([fb118c3](https://github.com/smoketurner/terraform-provider-apple/commit/fb118c384fbb17ea474cea0155b8984b791615af))
+* add Game Center achievements ([#123](https://github.com/smoketurner/terraform-provider-apple/issues/123)) ([13c7e3f](https://github.com/smoketurner/terraform-provider-apple/commit/13c7e3fa3eabfb0ea81636bf23bb1147312d2cfa))
+* add Game Center activities and challenges ([#126](https://github.com/smoketurner/terraform-provider-apple/issues/126)) ([ef40b23](https://github.com/smoketurner/terraform-provider-apple/commit/ef40b23145561d94261d0b4cc580783156feef79))
+* add Game Center details, groups and app versions ([#122](https://github.com/smoketurner/terraform-provider-apple/issues/122)) ([6f818b1](https://github.com/smoketurner/terraform-provider-apple/commit/6f818b15b689527b5df05c6cdd1a1ae3970957f2))
+* add Game Center leaderboard sets ([#125](https://github.com/smoketurner/terraform-provider-apple/issues/125)) ([105d158](https://github.com/smoketurner/terraform-provider-apple/commit/105d158de53275ca7ccf3183092f28d4fd41af6e))
+* add Game Center leaderboards ([#124](https://github.com/smoketurner/terraform-provider-apple/issues/124)) ([f27555d](https://github.com/smoketurner/terraform-provider-apple/commit/f27555def4493e59ee8629146cacaf8edd5a1034))
+* add Game Center matchmaking ([#127](https://github.com/smoketurner/terraform-provider-apple/issues/127)) ([d08cf80](https://github.com/smoketurner/terraform-provider-apple/commit/d08cf807e031c440dfb075a5d0f7bf49fc56a778))
+* add Game Center ordering and challenge versions ([#129](https://github.com/smoketurner/terraform-provider-apple/issues/129)) ([ac401c7](https://github.com/smoketurner/terraform-provider-apple/commit/ac401c70d0505e7a2b5893e8e77acc5e32986b84))
+* add in-app events ([#111](https://github.com/smoketurner/terraform-provider-apple/issues/111)) ([510c918](https://github.com/smoketurner/terraform-provider-apple/commit/510c918237161114bdd4df78bda129b4cb57704d))
+* add product page optimization experiments ([#115](https://github.com/smoketurner/terraform-provider-apple/issues/115)) ([9887436](https://github.com/smoketurner/terraform-provider-apple/commit/9887436254fb0105ce4a61ff47bc28c4f277c5b4))
+* add retention messaging from API spec 4.6 ([#109](https://github.com/smoketurner/terraform-provider-apple/issues/109)) ([f46c2d9](https://github.com/smoketurner/terraform-provider-apple/commit/f46c2d9a91d048888d141406e305858fa53edb82))
+* add Xcode Cloud workflows, lookups and build runs ([#119](https://github.com/smoketurner/terraform-provider-apple/issues/119)) ([a8f4180](https://github.com/smoketurner/terraform-provider-apple/commit/a8f4180de9a1aa2eecd3c540456b6d7eda8ff39f))
+
 ## [0.3.0](https://github.com/smoketurner/terraform-provider-apple/compare/v0.2.0...v0.3.0) (2026-11-03)
 
 
