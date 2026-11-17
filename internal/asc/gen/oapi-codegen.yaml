@@ -427,6 +427,24 @@ output-options:
     - gameCenterLeaderboardsV2_getInstance
     - gameCenterLeaderboardsV2_updateInstance
     - gameCenterLeaderboardsV2_versions_getToManyRelated
+    - gameCenterMatchmakingQueues_createInstance
+    - gameCenterMatchmakingQueues_deleteInstance
+    - gameCenterMatchmakingQueues_getCollection
+    - gameCenterMatchmakingQueues_getInstance
+    - gameCenterMatchmakingQueues_updateInstance
+    - gameCenterMatchmakingRuleSets_createInstance
+    - gameCenterMatchmakingRuleSets_deleteInstance
+    - gameCenterMatchmakingRuleSets_getCollection
+    - gameCenterMatchmakingRuleSets_getInstance
+    - gameCenterMatchmakingRuleSets_rules_getToManyRelated
+    - gameCenterMatchmakingRuleSets_teams_getToManyRelated
+    - gameCenterMatchmakingRuleSets_updateInstance
+    - gameCenterMatchmakingRules_createInstance
+    - gameCenterMatchmakingRules_deleteInstance
+    - gameCenterMatchmakingRules_updateInstance
+    - gameCenterMatchmakingTeams_createInstance
+    - gameCenterMatchmakingTeams_deleteInstance
+    - gameCenterMatchmakingTeams_updateInstance
     - inAppPurchaseAppStoreReviewScreenshots_createInstance
     - inAppPurchaseAppStoreReviewScreenshots_deleteInstance
     - inAppPurchaseAppStoreReviewScreenshots_getInstance

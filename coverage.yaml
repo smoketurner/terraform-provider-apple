@@ -969,37 +969,37 @@ operations:
   gameCenterLeaderboards_releases_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboards_releases_getToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboards_updateInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterMatchmakingQueues_createInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingQueues_deleteInstance: {status: planned, issue: 13}
+  gameCenterMatchmakingQueues_createInstance: {status: covered, by: [apple_game_center_matchmaking_queue]}
+  gameCenterMatchmakingQueues_deleteInstance: {status: covered, by: [apple_game_center_matchmaking_queue]}
   gameCenterMatchmakingQueues_experimentMatchmakingQueueSizes_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingQueues_experimentMatchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
-  gameCenterMatchmakingQueues_getCollection: {status: planned, issue: 13}
-  gameCenterMatchmakingQueues_getInstance: {status: planned, issue: 13}
+  gameCenterMatchmakingQueues_getCollection: {status: covered, by: [data.apple_game_center_matchmaking_queues]}
+  gameCenterMatchmakingQueues_getInstance: {status: covered, by: [apple_game_center_matchmaking_queue]}
   gameCenterMatchmakingQueues_matchmakingQueueSizes_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingQueues_matchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingQueues_matchmakingSessions_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
-  gameCenterMatchmakingQueues_updateInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRuleSetTests_createInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRuleSets_createInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRuleSets_deleteInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRuleSets_getCollection: {status: planned, issue: 13}
-  gameCenterMatchmakingRuleSets_getInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRuleSets_matchmakingQueues_getToManyRelated: {status: planned, issue: 13}
+  gameCenterMatchmakingQueues_updateInstance: {status: covered, by: [apple_game_center_matchmaking_queue]}
+  gameCenterMatchmakingRuleSetTests_createInstance: {status: out_of_scope, reason: "tries a rule set against sample match requests while writing rules; it changes nothing"}
+  gameCenterMatchmakingRuleSets_createInstance: {status: covered, by: [apple_game_center_matchmaking_rule_set]}
+  gameCenterMatchmakingRuleSets_deleteInstance: {status: covered, by: [apple_game_center_matchmaking_rule_set]}
+  gameCenterMatchmakingRuleSets_getCollection: {status: covered, by: [data.apple_game_center_matchmaking_rule_sets]}
+  gameCenterMatchmakingRuleSets_getInstance: {status: covered, by: [apple_game_center_matchmaking_rule_set]}
+  gameCenterMatchmakingRuleSets_matchmakingQueues_getToManyRelated: {status: out_of_scope, reason: "data.apple_game_center_matchmaking_queues reports each queue's rule set"}
   gameCenterMatchmakingRuleSets_matchmakingQueues_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterMatchmakingRuleSets_rules_getToManyRelated: {status: planned, issue: 13}
+  gameCenterMatchmakingRuleSets_rules_getToManyRelated: {status: covered, by: [apple_game_center_matchmaking_rule]}
   gameCenterMatchmakingRuleSets_rules_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterMatchmakingRuleSets_teams_getToManyRelated: {status: planned, issue: 13}
+  gameCenterMatchmakingRuleSets_teams_getToManyRelated: {status: covered, by: [apple_game_center_matchmaking_team]}
   gameCenterMatchmakingRuleSets_teams_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterMatchmakingRuleSets_updateInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRules_createInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRules_deleteInstance: {status: planned, issue: 13}
+  gameCenterMatchmakingRuleSets_updateInstance: {status: covered, by: [apple_game_center_matchmaking_rule_set]}
+  gameCenterMatchmakingRules_createInstance: {status: covered, by: [apple_game_center_matchmaking_rule]}
+  gameCenterMatchmakingRules_deleteInstance: {status: covered, by: [apple_game_center_matchmaking_rule]}
   gameCenterMatchmakingRules_matchmakingBooleanRuleResults_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingRules_matchmakingNumberRuleResults_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingRules_matchmakingRuleErrors_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
-  gameCenterMatchmakingRules_updateInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingTeams_createInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingTeams_deleteInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingTeams_updateInstance: {status: planned, issue: 13}
+  gameCenterMatchmakingRules_updateInstance: {status: covered, by: [apple_game_center_matchmaking_rule]}
+  gameCenterMatchmakingTeams_createInstance: {status: covered, by: [apple_game_center_matchmaking_team]}
+  gameCenterMatchmakingTeams_deleteInstance: {status: covered, by: [apple_game_center_matchmaking_team]}
+  gameCenterMatchmakingTeams_updateInstance: {status: covered, by: [apple_game_center_matchmaking_team]}
   gameCenterPlayerAchievementSubmissions_createInstance: {status: out_of_scope, reason: "reports a player's progress at run time, from a game server"}
   gameCenterScoreModerations_updateInstance: {status: out_of_scope, reason: "moderating scores is done in App Store Connect, not configuration"}
   inAppPurchaseAppStoreReviewScreenshots_createInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}

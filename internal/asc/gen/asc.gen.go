@@ -17402,6 +17402,399 @@ func (e GameCenterLeaderboardVersionV2InlineCreateType) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType.
+const (
+	GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType enum.
+func (e GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueRelationshipsRuleSetDataType.
+const (
+	GameCenterMatchmakingQueueRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingQueueRelationshipsRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueRelationshipsRuleSetDataType enum.
+func (e GameCenterMatchmakingQueueRelationshipsRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueType.
+const (
+	GameCenterMatchmakingQueueTypeGameCenterMatchmakingQueues GameCenterMatchmakingQueueType = "gameCenterMatchmakingQueues"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueType enum.
+func (e GameCenterMatchmakingQueueType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueTypeGameCenterMatchmakingQueues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType.
+const (
+	GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType enum.
+func (e GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType.
+const (
+	GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType enum.
+func (e GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueCreateRequestDataType.
+const (
+	GameCenterMatchmakingQueueCreateRequestDataTypeGameCenterMatchmakingQueues GameCenterMatchmakingQueueCreateRequestDataType = "gameCenterMatchmakingQueues"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueCreateRequestDataType enum.
+func (e GameCenterMatchmakingQueueCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueCreateRequestDataTypeGameCenterMatchmakingQueues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType.
+const (
+	GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType enum.
+func (e GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType.
+const (
+	GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType enum.
+func (e GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueueUpdateRequestDataType.
+const (
+	GameCenterMatchmakingQueueUpdateRequestDataTypeGameCenterMatchmakingQueues GameCenterMatchmakingQueueUpdateRequestDataType = "gameCenterMatchmakingQueues"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueueUpdateRequestDataType enum.
+func (e GameCenterMatchmakingQueueUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueueUpdateRequestDataTypeGameCenterMatchmakingQueues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleAttributesType.
+const (
+	GameCenterMatchmakingRuleAttributesTypeCOMPATIBLE GameCenterMatchmakingRuleAttributesType = "COMPATIBLE"
+	GameCenterMatchmakingRuleAttributesTypeDISTANCE   GameCenterMatchmakingRuleAttributesType = "DISTANCE"
+	GameCenterMatchmakingRuleAttributesTypeMATCH      GameCenterMatchmakingRuleAttributesType = "MATCH"
+	GameCenterMatchmakingRuleAttributesTypeTEAM       GameCenterMatchmakingRuleAttributesType = "TEAM"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleAttributesType enum.
+func (e GameCenterMatchmakingRuleAttributesType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleAttributesTypeCOMPATIBLE:
+		return true
+	case GameCenterMatchmakingRuleAttributesTypeDISTANCE:
+		return true
+	case GameCenterMatchmakingRuleAttributesTypeMATCH:
+		return true
+	case GameCenterMatchmakingRuleAttributesTypeTEAM:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleType.
+const (
+	GameCenterMatchmakingRuleTypeGameCenterMatchmakingRules GameCenterMatchmakingRuleType = "gameCenterMatchmakingRules"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleType enum.
+func (e GameCenterMatchmakingRuleType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleTypeGameCenterMatchmakingRules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleCreateRequestDataAttributesType.
+const (
+	GameCenterMatchmakingRuleCreateRequestDataAttributesTypeCOMPATIBLE GameCenterMatchmakingRuleCreateRequestDataAttributesType = "COMPATIBLE"
+	GameCenterMatchmakingRuleCreateRequestDataAttributesTypeDISTANCE   GameCenterMatchmakingRuleCreateRequestDataAttributesType = "DISTANCE"
+	GameCenterMatchmakingRuleCreateRequestDataAttributesTypeMATCH      GameCenterMatchmakingRuleCreateRequestDataAttributesType = "MATCH"
+	GameCenterMatchmakingRuleCreateRequestDataAttributesTypeTEAM       GameCenterMatchmakingRuleCreateRequestDataAttributesType = "TEAM"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleCreateRequestDataAttributesType enum.
+func (e GameCenterMatchmakingRuleCreateRequestDataAttributesType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleCreateRequestDataAttributesTypeCOMPATIBLE:
+		return true
+	case GameCenterMatchmakingRuleCreateRequestDataAttributesTypeDISTANCE:
+		return true
+	case GameCenterMatchmakingRuleCreateRequestDataAttributesTypeMATCH:
+		return true
+	case GameCenterMatchmakingRuleCreateRequestDataAttributesTypeTEAM:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType.
+const (
+	GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType enum.
+func (e GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleCreateRequestDataType.
+const (
+	GameCenterMatchmakingRuleCreateRequestDataTypeGameCenterMatchmakingRules GameCenterMatchmakingRuleCreateRequestDataType = "gameCenterMatchmakingRules"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleCreateRequestDataType enum.
+func (e GameCenterMatchmakingRuleCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleCreateRequestDataTypeGameCenterMatchmakingRules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType.
+const (
+	GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataTypeGameCenterMatchmakingQueues GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType = "gameCenterMatchmakingQueues"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType enum.
+func (e GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataTypeGameCenterMatchmakingQueues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetRelationshipsRulesDataType.
+const (
+	GameCenterMatchmakingRuleSetRelationshipsRulesDataTypeGameCenterMatchmakingRules GameCenterMatchmakingRuleSetRelationshipsRulesDataType = "gameCenterMatchmakingRules"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetRelationshipsRulesDataType enum.
+func (e GameCenterMatchmakingRuleSetRelationshipsRulesDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetRelationshipsRulesDataTypeGameCenterMatchmakingRules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetRelationshipsTeamsDataType.
+const (
+	GameCenterMatchmakingRuleSetRelationshipsTeamsDataTypeGameCenterMatchmakingTeams GameCenterMatchmakingRuleSetRelationshipsTeamsDataType = "gameCenterMatchmakingTeams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetRelationshipsTeamsDataType enum.
+func (e GameCenterMatchmakingRuleSetRelationshipsTeamsDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetRelationshipsTeamsDataTypeGameCenterMatchmakingTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetType.
+const (
+	GameCenterMatchmakingRuleSetTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingRuleSetType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetType enum.
+func (e GameCenterMatchmakingRuleSetType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetCreateRequestDataType.
+const (
+	GameCenterMatchmakingRuleSetCreateRequestDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingRuleSetCreateRequestDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetCreateRequestDataType enum.
+func (e GameCenterMatchmakingRuleSetCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetCreateRequestDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetUpdateRequestDataType.
+const (
+	GameCenterMatchmakingRuleSetUpdateRequestDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingRuleSetUpdateRequestDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetUpdateRequestDataType enum.
+func (e GameCenterMatchmakingRuleSetUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetUpdateRequestDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleUpdateRequestDataType.
+const (
+	GameCenterMatchmakingRuleUpdateRequestDataTypeGameCenterMatchmakingRules GameCenterMatchmakingRuleUpdateRequestDataType = "gameCenterMatchmakingRules"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleUpdateRequestDataType enum.
+func (e GameCenterMatchmakingRuleUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleUpdateRequestDataTypeGameCenterMatchmakingRules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingTeamType.
+const (
+	GameCenterMatchmakingTeamTypeGameCenterMatchmakingTeams GameCenterMatchmakingTeamType = "gameCenterMatchmakingTeams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingTeamType enum.
+func (e GameCenterMatchmakingTeamType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingTeamTypeGameCenterMatchmakingTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType.
+const (
+	GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType = "gameCenterMatchmakingRuleSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType enum.
+func (e GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataTypeGameCenterMatchmakingRuleSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingTeamCreateRequestDataType.
+const (
+	GameCenterMatchmakingTeamCreateRequestDataTypeGameCenterMatchmakingTeams GameCenterMatchmakingTeamCreateRequestDataType = "gameCenterMatchmakingTeams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingTeamCreateRequestDataType enum.
+func (e GameCenterMatchmakingTeamCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingTeamCreateRequestDataTypeGameCenterMatchmakingTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingTeamUpdateRequestDataType.
+const (
+	GameCenterMatchmakingTeamUpdateRequestDataTypeGameCenterMatchmakingTeams GameCenterMatchmakingTeamUpdateRequestDataType = "gameCenterMatchmakingTeams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingTeamUpdateRequestDataType enum.
+func (e GameCenterMatchmakingTeamUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingTeamUpdateRequestDataTypeGameCenterMatchmakingTeams:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterVersionState.
 const (
 	GameCenterVersionStateACCEPTED               GameCenterVersionState = "ACCEPTED"
@@ -59648,6 +60041,456 @@ func (e GameCenterLeaderboardSetMemberLocalizationsGetCollectionParamsInclude) V
 	}
 }
 
+// Defines values for GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues.
+const (
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues = "classicMatchmakingBundleIds"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet           GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues = "experimentRuleSet"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesReferenceName               GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues = "referenceName"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesRuleSet                     GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues = "ruleSet"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues enum.
+func (e GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesReferenceName:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueuesRuleSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets.
+const (
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues   GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "matchmakingQueues"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers          GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "maxPlayers"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers          GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "minPlayers"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsReferenceName       GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "referenceName"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "ruleLanguageVersion"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRules               GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "rules"
+	GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsTeams               GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "teams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets enum.
+func (e GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsReferenceName:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRules:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueuesGetCollectionParamsInclude.
+const (
+	GameCenterMatchmakingQueuesGetCollectionParamsIncludeExperimentRuleSet GameCenterMatchmakingQueuesGetCollectionParamsInclude = "experimentRuleSet"
+	GameCenterMatchmakingQueuesGetCollectionParamsIncludeRuleSet           GameCenterMatchmakingQueuesGetCollectionParamsInclude = "ruleSet"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueuesGetCollectionParamsInclude enum.
+func (e GameCenterMatchmakingQueuesGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueuesGetCollectionParamsIncludeExperimentRuleSet:
+		return true
+	case GameCenterMatchmakingQueuesGetCollectionParamsIncludeRuleSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues.
+const (
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues = "classicMatchmakingBundleIds"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet           GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues = "experimentRuleSet"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesReferenceName               GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues = "referenceName"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesRuleSet                     GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues = "ruleSet"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues enum.
+func (e GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesReferenceName:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueuesRuleSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets.
+const (
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues   GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "matchmakingQueues"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers          GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "maxPlayers"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers          GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "minPlayers"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsReferenceName       GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "referenceName"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "ruleLanguageVersion"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRules               GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "rules"
+	GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsTeams               GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "teams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets enum.
+func (e GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsReferenceName:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRules:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingQueuesGetInstanceParamsInclude.
+const (
+	GameCenterMatchmakingQueuesGetInstanceParamsIncludeExperimentRuleSet GameCenterMatchmakingQueuesGetInstanceParamsInclude = "experimentRuleSet"
+	GameCenterMatchmakingQueuesGetInstanceParamsIncludeRuleSet           GameCenterMatchmakingQueuesGetInstanceParamsInclude = "ruleSet"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingQueuesGetInstanceParamsInclude enum.
+func (e GameCenterMatchmakingQueuesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingQueuesGetInstanceParamsIncludeExperimentRuleSet:
+		return true
+	case GameCenterMatchmakingQueuesGetInstanceParamsIncludeRuleSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets.
+const (
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues   GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "matchmakingQueues"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers          GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "maxPlayers"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers          GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "minPlayers"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsReferenceName       GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "referenceName"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "ruleLanguageVersion"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRules               GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "rules"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsTeams               GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets = "teams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets enum.
+func (e GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsRules:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSetsTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams.
+const (
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeamsMaxPlayers    GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams = "maxPlayers"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeamsMinPlayers    GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams = "minPlayers"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeamsReferenceName GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams enum.
+func (e GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeamsMaxPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeamsMinPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeamsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules.
+const (
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesDescription   GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules = "description"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesExpression    GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules = "expression"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesReferenceName GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules = "referenceName"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesType          GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules = "type"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesWeight        GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules = "weight"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules enum.
+func (e GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesDescription:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesExpression:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesType:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRulesWeight:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues.
+const (
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues = "classicMatchmakingBundleIds"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet           GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues = "experimentRuleSet"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesReferenceName               GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues = "referenceName"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesRuleSet                     GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues = "ruleSet"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues enum.
+func (e GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueuesRuleSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetCollectionParamsInclude.
+const (
+	GameCenterMatchmakingRuleSetsGetCollectionParamsIncludeMatchmakingQueues GameCenterMatchmakingRuleSetsGetCollectionParamsInclude = "matchmakingQueues"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsIncludeRules             GameCenterMatchmakingRuleSetsGetCollectionParamsInclude = "rules"
+	GameCenterMatchmakingRuleSetsGetCollectionParamsIncludeTeams             GameCenterMatchmakingRuleSetsGetCollectionParamsInclude = "teams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetCollectionParamsInclude enum.
+func (e GameCenterMatchmakingRuleSetsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsIncludeMatchmakingQueues:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsIncludeRules:
+		return true
+	case GameCenterMatchmakingRuleSetsGetCollectionParamsIncludeTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets.
+const (
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues   GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "matchmakingQueues"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers          GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "maxPlayers"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers          GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "minPlayers"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsReferenceName       GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "referenceName"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "ruleLanguageVersion"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRules               GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "rules"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsTeams               GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets = "teams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets enum.
+func (e GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMatchmakingQueues:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMaxPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsMinPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRuleLanguageVersion:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsRules:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSetsTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams.
+const (
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeamsMaxPlayers    GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams = "maxPlayers"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeamsMinPlayers    GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams = "minPlayers"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeamsReferenceName GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams enum.
+func (e GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeamsMaxPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeamsMinPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeamsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules.
+const (
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesDescription   GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules = "description"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesExpression    GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules = "expression"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesReferenceName GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules = "referenceName"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesType          GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules = "type"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesWeight        GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules = "weight"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules enum.
+func (e GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesDescription:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesExpression:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesType:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRulesWeight:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues.
+const (
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues = "classicMatchmakingBundleIds"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet           GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues = "experimentRuleSet"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesReferenceName               GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues = "referenceName"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesRuleSet                     GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues = "ruleSet"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues enum.
+func (e GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesClassicMatchmakingBundleIds:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesExperimentRuleSet:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueuesRuleSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsGetInstanceParamsInclude.
+const (
+	GameCenterMatchmakingRuleSetsGetInstanceParamsIncludeMatchmakingQueues GameCenterMatchmakingRuleSetsGetInstanceParamsInclude = "matchmakingQueues"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsIncludeRules             GameCenterMatchmakingRuleSetsGetInstanceParamsInclude = "rules"
+	GameCenterMatchmakingRuleSetsGetInstanceParamsIncludeTeams             GameCenterMatchmakingRuleSetsGetInstanceParamsInclude = "teams"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsGetInstanceParamsInclude enum.
+func (e GameCenterMatchmakingRuleSetsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsIncludeMatchmakingQueues:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsIncludeRules:
+		return true
+	case GameCenterMatchmakingRuleSetsGetInstanceParamsIncludeTeams:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules.
+const (
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesDescription   GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules = "description"
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesExpression    GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules = "expression"
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesReferenceName GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules = "referenceName"
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesType          GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules = "type"
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesWeight        GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules = "weight"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules enum.
+func (e GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesDescription:
+		return true
+	case GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesExpression:
+		return true
+	case GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesReferenceName:
+		return true
+	case GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesType:
+		return true
+	case GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRulesWeight:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams.
+const (
+	GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeamsMaxPlayers    GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams = "maxPlayers"
+	GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeamsMinPlayers    GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams = "minPlayers"
+	GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeamsReferenceName GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams enum.
+func (e GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams) Valid() bool {
+	switch e {
+	case GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeamsMaxPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeamsMinPlayers:
+		return true
+	case GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeamsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots.
 const (
 	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetDeliveryState"
@@ -87009,6 +87852,379 @@ type GameCenterLeaderboardsV2Response_Included_Item struct {
 	union json.RawMessage
 }
 
+// GameCenterMatchmakingQueue defines model for GameCenterMatchmakingQueue.
+type GameCenterMatchmakingQueue struct {
+	Attributes *struct {
+		ClassicMatchmakingBundleIds *[]string `json:"classicMatchmakingBundleIds,omitempty"`
+		ReferenceName               *string   `json:"referenceName,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		ExperimentRuleSet *struct {
+			Data *struct {
+				Id   string                                                           `json:"id"`
+				Type GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"experimentRuleSet,omitempty"`
+		RuleSet *struct {
+			Data *struct {
+				Id   string                                                 `json:"id"`
+				Type GameCenterMatchmakingQueueRelationshipsRuleSetDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"ruleSet,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterMatchmakingQueueType `json:"type"`
+}
+
+// GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType defines model for GameCenterMatchmakingQueue.Relationships.ExperimentRuleSet.Data.Type.
+type GameCenterMatchmakingQueueRelationshipsExperimentRuleSetDataType string
+
+// GameCenterMatchmakingQueueRelationshipsRuleSetDataType defines model for GameCenterMatchmakingQueue.Relationships.RuleSet.Data.Type.
+type GameCenterMatchmakingQueueRelationshipsRuleSetDataType string
+
+// GameCenterMatchmakingQueueType defines model for GameCenterMatchmakingQueue.Type.
+type GameCenterMatchmakingQueueType string
+
+// GameCenterMatchmakingQueueCreateRequest defines model for GameCenterMatchmakingQueueCreateRequest.
+type GameCenterMatchmakingQueueCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			ClassicMatchmakingBundleIds *[]string `json:"classicMatchmakingBundleIds,omitempty"`
+			ReferenceName               string    `json:"referenceName"`
+		} `json:"attributes"`
+		Relationships struct {
+			ExperimentRuleSet *struct {
+				Data *struct {
+					Id   string                                                                            `json:"id"`
+					Type GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"experimentRuleSet,omitempty"`
+			RuleSet struct {
+				Data struct {
+					Id   string                                                                  `json:"id"`
+					Type GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType `json:"type"`
+				} `json:"data"`
+			} `json:"ruleSet"`
+		} `json:"relationships"`
+		Type GameCenterMatchmakingQueueCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType defines model for GameCenterMatchmakingQueueCreateRequest.Data.Relationships.ExperimentRuleSet.Data.Type.
+type GameCenterMatchmakingQueueCreateRequestDataRelationshipsExperimentRuleSetDataType string
+
+// GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType defines model for GameCenterMatchmakingQueueCreateRequest.Data.Relationships.RuleSet.Data.Type.
+type GameCenterMatchmakingQueueCreateRequestDataRelationshipsRuleSetDataType string
+
+// GameCenterMatchmakingQueueCreateRequestDataType defines model for GameCenterMatchmakingQueueCreateRequest.Data.Type.
+type GameCenterMatchmakingQueueCreateRequestDataType string
+
+// GameCenterMatchmakingQueueResponse defines model for GameCenterMatchmakingQueueResponse.
+type GameCenterMatchmakingQueueResponse struct {
+	Data     GameCenterMatchmakingQueue      `json:"data"`
+	Included *[]GameCenterMatchmakingRuleSet `json:"included,omitempty"`
+	Links    DocumentLinks                   `json:"links"`
+}
+
+// GameCenterMatchmakingQueueUpdateRequest defines model for GameCenterMatchmakingQueueUpdateRequest.
+type GameCenterMatchmakingQueueUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			ClassicMatchmakingBundleIds *[]string `json:"classicMatchmakingBundleIds,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			ExperimentRuleSet *struct {
+				Data *struct {
+					Id   string                                                                            `json:"id"`
+					Type GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"experimentRuleSet,omitempty"`
+			RuleSet *struct {
+				Data *struct {
+					Id   string                                                                  `json:"id"`
+					Type GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"ruleSet,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type GameCenterMatchmakingQueueUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType defines model for GameCenterMatchmakingQueueUpdateRequest.Data.Relationships.ExperimentRuleSet.Data.Type.
+type GameCenterMatchmakingQueueUpdateRequestDataRelationshipsExperimentRuleSetDataType string
+
+// GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType defines model for GameCenterMatchmakingQueueUpdateRequest.Data.Relationships.RuleSet.Data.Type.
+type GameCenterMatchmakingQueueUpdateRequestDataRelationshipsRuleSetDataType string
+
+// GameCenterMatchmakingQueueUpdateRequestDataType defines model for GameCenterMatchmakingQueueUpdateRequest.Data.Type.
+type GameCenterMatchmakingQueueUpdateRequestDataType string
+
+// GameCenterMatchmakingQueuesResponse defines model for GameCenterMatchmakingQueuesResponse.
+type GameCenterMatchmakingQueuesResponse struct {
+	Data     []GameCenterMatchmakingQueue    `json:"data"`
+	Included *[]GameCenterMatchmakingRuleSet `json:"included,omitempty"`
+	Links    PagedDocumentLinks              `json:"links"`
+	Meta     *PagingInformation              `json:"meta,omitempty"`
+}
+
+// GameCenterMatchmakingRule defines model for GameCenterMatchmakingRule.
+type GameCenterMatchmakingRule struct {
+	Attributes *struct {
+		Description   *string                                  `json:"description,omitempty"`
+		Expression    *string                                  `json:"expression,omitempty"`
+		ReferenceName *string                                  `json:"referenceName,omitempty"`
+		Type          *GameCenterMatchmakingRuleAttributesType `json:"type,omitempty"`
+		Weight        *float32                                 `json:"weight,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                        `json:"id"`
+	Links *ResourceLinks                `json:"links,omitempty"`
+	Type  GameCenterMatchmakingRuleType `json:"type"`
+}
+
+// GameCenterMatchmakingRuleAttributesType defines model for GameCenterMatchmakingRule.Attributes.Type.
+type GameCenterMatchmakingRuleAttributesType string
+
+// GameCenterMatchmakingRuleType defines model for GameCenterMatchmakingRule.Type.
+type GameCenterMatchmakingRuleType string
+
+// GameCenterMatchmakingRuleCreateRequest defines model for GameCenterMatchmakingRuleCreateRequest.
+type GameCenterMatchmakingRuleCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Description   string                                                   `json:"description"`
+			Expression    string                                                   `json:"expression"`
+			ReferenceName string                                                   `json:"referenceName"`
+			Type          GameCenterMatchmakingRuleCreateRequestDataAttributesType `json:"type"`
+			Weight        *float32                                                 `json:"weight,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			RuleSet struct {
+				Data struct {
+					Id   string                                                                 `json:"id"`
+					Type GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType `json:"type"`
+				} `json:"data"`
+			} `json:"ruleSet"`
+		} `json:"relationships"`
+		Type GameCenterMatchmakingRuleCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingRuleCreateRequestDataAttributesType defines model for GameCenterMatchmakingRuleCreateRequest.Data.Attributes.Type.
+type GameCenterMatchmakingRuleCreateRequestDataAttributesType string
+
+// GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType defines model for GameCenterMatchmakingRuleCreateRequest.Data.Relationships.RuleSet.Data.Type.
+type GameCenterMatchmakingRuleCreateRequestDataRelationshipsRuleSetDataType string
+
+// GameCenterMatchmakingRuleCreateRequestDataType defines model for GameCenterMatchmakingRuleCreateRequest.Data.Type.
+type GameCenterMatchmakingRuleCreateRequestDataType string
+
+// GameCenterMatchmakingRuleResponse defines model for GameCenterMatchmakingRuleResponse.
+type GameCenterMatchmakingRuleResponse struct {
+	Data  GameCenterMatchmakingRule `json:"data"`
+	Links DocumentLinks             `json:"links"`
+}
+
+// GameCenterMatchmakingRuleSet defines model for GameCenterMatchmakingRuleSet.
+type GameCenterMatchmakingRuleSet struct {
+	Attributes *struct {
+		MaxPlayers          *int    `json:"maxPlayers,omitempty"`
+		MinPlayers          *int    `json:"minPlayers,omitempty"`
+		ReferenceName       *string `json:"referenceName,omitempty"`
+		RuleLanguageVersion *int    `json:"ruleLanguageVersion,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		MatchmakingQueues *struct {
+			Data *[]struct {
+				Id   string                                                             `json:"id"`
+				Type GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"matchmakingQueues,omitempty"`
+		Rules *struct {
+			Data *[]struct {
+				Id   string                                                 `json:"id"`
+				Type GameCenterMatchmakingRuleSetRelationshipsRulesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"rules,omitempty"`
+		Teams *struct {
+			Data *[]struct {
+				Id   string                                                 `json:"id"`
+				Type GameCenterMatchmakingRuleSetRelationshipsTeamsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"teams,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterMatchmakingRuleSetType `json:"type"`
+}
+
+// GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType defines model for GameCenterMatchmakingRuleSet.Relationships.MatchmakingQueues.Data.Type.
+type GameCenterMatchmakingRuleSetRelationshipsMatchmakingQueuesDataType string
+
+// GameCenterMatchmakingRuleSetRelationshipsRulesDataType defines model for GameCenterMatchmakingRuleSet.Relationships.Rules.Data.Type.
+type GameCenterMatchmakingRuleSetRelationshipsRulesDataType string
+
+// GameCenterMatchmakingRuleSetRelationshipsTeamsDataType defines model for GameCenterMatchmakingRuleSet.Relationships.Teams.Data.Type.
+type GameCenterMatchmakingRuleSetRelationshipsTeamsDataType string
+
+// GameCenterMatchmakingRuleSetType defines model for GameCenterMatchmakingRuleSet.Type.
+type GameCenterMatchmakingRuleSetType string
+
+// GameCenterMatchmakingRuleSetCreateRequest defines model for GameCenterMatchmakingRuleSetCreateRequest.
+type GameCenterMatchmakingRuleSetCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			MaxPlayers          int    `json:"maxPlayers"`
+			MinPlayers          int    `json:"minPlayers"`
+			ReferenceName       string `json:"referenceName"`
+			RuleLanguageVersion int    `json:"ruleLanguageVersion"`
+		} `json:"attributes"`
+		Type GameCenterMatchmakingRuleSetCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingRuleSetCreateRequestDataType defines model for GameCenterMatchmakingRuleSetCreateRequest.Data.Type.
+type GameCenterMatchmakingRuleSetCreateRequestDataType string
+
+// GameCenterMatchmakingRuleSetResponse defines model for GameCenterMatchmakingRuleSetResponse.
+type GameCenterMatchmakingRuleSetResponse struct {
+	Data     GameCenterMatchmakingRuleSet                          `json:"data"`
+	Included *[]GameCenterMatchmakingRuleSetResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                         `json:"links"`
+}
+
+// GameCenterMatchmakingRuleSetResponse_Included_Item defines model for GameCenterMatchmakingRuleSetResponse.included.Item.
+type GameCenterMatchmakingRuleSetResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterMatchmakingRuleSetUpdateRequest defines model for GameCenterMatchmakingRuleSetUpdateRequest.
+type GameCenterMatchmakingRuleSetUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			MaxPlayers *int `json:"maxPlayers,omitempty"`
+			MinPlayers *int `json:"minPlayers,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                            `json:"id"`
+		Type GameCenterMatchmakingRuleSetUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingRuleSetUpdateRequestDataType defines model for GameCenterMatchmakingRuleSetUpdateRequest.Data.Type.
+type GameCenterMatchmakingRuleSetUpdateRequestDataType string
+
+// GameCenterMatchmakingRuleSetsResponse defines model for GameCenterMatchmakingRuleSetsResponse.
+type GameCenterMatchmakingRuleSetsResponse struct {
+	Data     []GameCenterMatchmakingRuleSet                         `json:"data"`
+	Included *[]GameCenterMatchmakingRuleSetsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                     `json:"links"`
+	Meta     *PagingInformation                                     `json:"meta,omitempty"`
+}
+
+// GameCenterMatchmakingRuleSetsResponse_Included_Item defines model for GameCenterMatchmakingRuleSetsResponse.included.Item.
+type GameCenterMatchmakingRuleSetsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterMatchmakingRuleUpdateRequest defines model for GameCenterMatchmakingRuleUpdateRequest.
+type GameCenterMatchmakingRuleUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Description *string  `json:"description,omitempty"`
+			Expression  *string  `json:"expression,omitempty"`
+			Weight      *float32 `json:"weight,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                         `json:"id"`
+		Type GameCenterMatchmakingRuleUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingRuleUpdateRequestDataType defines model for GameCenterMatchmakingRuleUpdateRequest.Data.Type.
+type GameCenterMatchmakingRuleUpdateRequestDataType string
+
+// GameCenterMatchmakingRulesResponse defines model for GameCenterMatchmakingRulesResponse.
+type GameCenterMatchmakingRulesResponse struct {
+	Data  []GameCenterMatchmakingRule `json:"data"`
+	Links PagedDocumentLinks          `json:"links"`
+	Meta  *PagingInformation          `json:"meta,omitempty"`
+}
+
+// GameCenterMatchmakingTeam defines model for GameCenterMatchmakingTeam.
+type GameCenterMatchmakingTeam struct {
+	Attributes *struct {
+		MaxPlayers    *int    `json:"maxPlayers,omitempty"`
+		MinPlayers    *int    `json:"minPlayers,omitempty"`
+		ReferenceName *string `json:"referenceName,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                        `json:"id"`
+	Links *ResourceLinks                `json:"links,omitempty"`
+	Type  GameCenterMatchmakingTeamType `json:"type"`
+}
+
+// GameCenterMatchmakingTeamType defines model for GameCenterMatchmakingTeam.Type.
+type GameCenterMatchmakingTeamType string
+
+// GameCenterMatchmakingTeamCreateRequest defines model for GameCenterMatchmakingTeamCreateRequest.
+type GameCenterMatchmakingTeamCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			MaxPlayers    int    `json:"maxPlayers"`
+			MinPlayers    int    `json:"minPlayers"`
+			ReferenceName string `json:"referenceName"`
+		} `json:"attributes"`
+		Relationships struct {
+			RuleSet struct {
+				Data struct {
+					Id   string                                                                 `json:"id"`
+					Type GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType `json:"type"`
+				} `json:"data"`
+			} `json:"ruleSet"`
+		} `json:"relationships"`
+		Type GameCenterMatchmakingTeamCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType defines model for GameCenterMatchmakingTeamCreateRequest.Data.Relationships.RuleSet.Data.Type.
+type GameCenterMatchmakingTeamCreateRequestDataRelationshipsRuleSetDataType string
+
+// GameCenterMatchmakingTeamCreateRequestDataType defines model for GameCenterMatchmakingTeamCreateRequest.Data.Type.
+type GameCenterMatchmakingTeamCreateRequestDataType string
+
+// GameCenterMatchmakingTeamResponse defines model for GameCenterMatchmakingTeamResponse.
+type GameCenterMatchmakingTeamResponse struct {
+	Data  GameCenterMatchmakingTeam `json:"data"`
+	Links DocumentLinks             `json:"links"`
+}
+
+// GameCenterMatchmakingTeamUpdateRequest defines model for GameCenterMatchmakingTeamUpdateRequest.
+type GameCenterMatchmakingTeamUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			MaxPlayers *int `json:"maxPlayers,omitempty"`
+			MinPlayers *int `json:"minPlayers,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                         `json:"id"`
+		Type GameCenterMatchmakingTeamUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterMatchmakingTeamUpdateRequestDataType defines model for GameCenterMatchmakingTeamUpdateRequest.Data.Type.
+type GameCenterMatchmakingTeamUpdateRequestDataType string
+
+// GameCenterMatchmakingTeamsResponse defines model for GameCenterMatchmakingTeamsResponse.
+type GameCenterMatchmakingTeamsResponse struct {
+	Data  []GameCenterMatchmakingTeam `json:"data"`
+	Links PagedDocumentLinks          `json:"links"`
+	Meta  *PagingInformation          `json:"meta,omitempty"`
+}
+
 // GameCenterVersionState defines model for GameCenterVersionState.
 type GameCenterVersionState string
 
@@ -99945,6 +101161,162 @@ type GameCenterLeaderboardSetMemberLocalizationsGetCollectionParamsFieldsGameCen
 // GameCenterLeaderboardSetMemberLocalizationsGetCollectionParamsInclude defines parameters for GameCenterLeaderboardSetMemberLocalizationsGetCollection.
 type GameCenterLeaderboardSetMemberLocalizationsGetCollectionParamsInclude string
 
+// GameCenterMatchmakingQueuesGetCollectionParams defines parameters for GameCenterMatchmakingQueuesGetCollection.
+type GameCenterMatchmakingQueuesGetCollectionParams struct {
+	// FieldsGameCenterMatchmakingQueues the fields to include for returned resources of type gameCenterMatchmakingQueues
+	FieldsGameCenterMatchmakingQueues *[]GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues `form:"fields[gameCenterMatchmakingQueues],omitempty" json:"fields[gameCenterMatchmakingQueues],omitempty"`
+
+	// FieldsGameCenterMatchmakingRuleSets the fields to include for returned resources of type gameCenterMatchmakingRuleSets
+	FieldsGameCenterMatchmakingRuleSets *[]GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets `form:"fields[gameCenterMatchmakingRuleSets],omitempty" json:"fields[gameCenterMatchmakingRuleSets],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterMatchmakingQueuesGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues defines parameters for GameCenterMatchmakingQueuesGetCollection.
+type GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingQueues string
+
+// GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets defines parameters for GameCenterMatchmakingQueuesGetCollection.
+type GameCenterMatchmakingQueuesGetCollectionParamsFieldsGameCenterMatchmakingRuleSets string
+
+// GameCenterMatchmakingQueuesGetCollectionParamsInclude defines parameters for GameCenterMatchmakingQueuesGetCollection.
+type GameCenterMatchmakingQueuesGetCollectionParamsInclude string
+
+// GameCenterMatchmakingQueuesGetInstanceParams defines parameters for GameCenterMatchmakingQueuesGetInstance.
+type GameCenterMatchmakingQueuesGetInstanceParams struct {
+	// FieldsGameCenterMatchmakingQueues the fields to include for returned resources of type gameCenterMatchmakingQueues
+	FieldsGameCenterMatchmakingQueues *[]GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues `form:"fields[gameCenterMatchmakingQueues],omitempty" json:"fields[gameCenterMatchmakingQueues],omitempty"`
+
+	// FieldsGameCenterMatchmakingRuleSets the fields to include for returned resources of type gameCenterMatchmakingRuleSets
+	FieldsGameCenterMatchmakingRuleSets *[]GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets `form:"fields[gameCenterMatchmakingRuleSets],omitempty" json:"fields[gameCenterMatchmakingRuleSets],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterMatchmakingQueuesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues defines parameters for GameCenterMatchmakingQueuesGetInstance.
+type GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingQueues string
+
+// GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets defines parameters for GameCenterMatchmakingQueuesGetInstance.
+type GameCenterMatchmakingQueuesGetInstanceParamsFieldsGameCenterMatchmakingRuleSets string
+
+// GameCenterMatchmakingQueuesGetInstanceParamsInclude defines parameters for GameCenterMatchmakingQueuesGetInstance.
+type GameCenterMatchmakingQueuesGetInstanceParamsInclude string
+
+// GameCenterMatchmakingRuleSetsGetCollectionParams defines parameters for GameCenterMatchmakingRuleSetsGetCollection.
+type GameCenterMatchmakingRuleSetsGetCollectionParams struct {
+	// FieldsGameCenterMatchmakingRuleSets the fields to include for returned resources of type gameCenterMatchmakingRuleSets
+	FieldsGameCenterMatchmakingRuleSets *[]GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets `form:"fields[gameCenterMatchmakingRuleSets],omitempty" json:"fields[gameCenterMatchmakingRuleSets],omitempty"`
+
+	// FieldsGameCenterMatchmakingTeams the fields to include for returned resources of type gameCenterMatchmakingTeams
+	FieldsGameCenterMatchmakingTeams *[]GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams `form:"fields[gameCenterMatchmakingTeams],omitempty" json:"fields[gameCenterMatchmakingTeams],omitempty"`
+
+	// FieldsGameCenterMatchmakingRules the fields to include for returned resources of type gameCenterMatchmakingRules
+	FieldsGameCenterMatchmakingRules *[]GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules `form:"fields[gameCenterMatchmakingRules],omitempty" json:"fields[gameCenterMatchmakingRules],omitempty"`
+
+	// FieldsGameCenterMatchmakingQueues the fields to include for returned resources of type gameCenterMatchmakingQueues
+	FieldsGameCenterMatchmakingQueues *[]GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues `form:"fields[gameCenterMatchmakingQueues],omitempty" json:"fields[gameCenterMatchmakingQueues],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterMatchmakingRuleSetsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitMatchmakingQueues maximum number of related matchmakingQueues returned (when they are included)
+	LimitMatchmakingQueues *int `form:"limit[matchmakingQueues],omitempty" json:"limit[matchmakingQueues],omitempty"`
+
+	// LimitRules maximum number of related rules returned (when they are included)
+	LimitRules *int `form:"limit[rules],omitempty" json:"limit[rules],omitempty"`
+
+	// LimitTeams maximum number of related teams returned (when they are included)
+	LimitTeams *int `form:"limit[teams],omitempty" json:"limit[teams],omitempty"`
+}
+
+// GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets defines parameters for GameCenterMatchmakingRuleSetsGetCollection.
+type GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRuleSets string
+
+// GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams defines parameters for GameCenterMatchmakingRuleSetsGetCollection.
+type GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingTeams string
+
+// GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules defines parameters for GameCenterMatchmakingRuleSetsGetCollection.
+type GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingRules string
+
+// GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues defines parameters for GameCenterMatchmakingRuleSetsGetCollection.
+type GameCenterMatchmakingRuleSetsGetCollectionParamsFieldsGameCenterMatchmakingQueues string
+
+// GameCenterMatchmakingRuleSetsGetCollectionParamsInclude defines parameters for GameCenterMatchmakingRuleSetsGetCollection.
+type GameCenterMatchmakingRuleSetsGetCollectionParamsInclude string
+
+// GameCenterMatchmakingRuleSetsGetInstanceParams defines parameters for GameCenterMatchmakingRuleSetsGetInstance.
+type GameCenterMatchmakingRuleSetsGetInstanceParams struct {
+	// FieldsGameCenterMatchmakingRuleSets the fields to include for returned resources of type gameCenterMatchmakingRuleSets
+	FieldsGameCenterMatchmakingRuleSets *[]GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets `form:"fields[gameCenterMatchmakingRuleSets],omitempty" json:"fields[gameCenterMatchmakingRuleSets],omitempty"`
+
+	// FieldsGameCenterMatchmakingTeams the fields to include for returned resources of type gameCenterMatchmakingTeams
+	FieldsGameCenterMatchmakingTeams *[]GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams `form:"fields[gameCenterMatchmakingTeams],omitempty" json:"fields[gameCenterMatchmakingTeams],omitempty"`
+
+	// FieldsGameCenterMatchmakingRules the fields to include for returned resources of type gameCenterMatchmakingRules
+	FieldsGameCenterMatchmakingRules *[]GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules `form:"fields[gameCenterMatchmakingRules],omitempty" json:"fields[gameCenterMatchmakingRules],omitempty"`
+
+	// FieldsGameCenterMatchmakingQueues the fields to include for returned resources of type gameCenterMatchmakingQueues
+	FieldsGameCenterMatchmakingQueues *[]GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues `form:"fields[gameCenterMatchmakingQueues],omitempty" json:"fields[gameCenterMatchmakingQueues],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterMatchmakingRuleSetsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitMatchmakingQueues maximum number of related matchmakingQueues returned (when they are included)
+	LimitMatchmakingQueues *int `form:"limit[matchmakingQueues],omitempty" json:"limit[matchmakingQueues],omitempty"`
+
+	// LimitRules maximum number of related rules returned (when they are included)
+	LimitRules *int `form:"limit[rules],omitempty" json:"limit[rules],omitempty"`
+
+	// LimitTeams maximum number of related teams returned (when they are included)
+	LimitTeams *int `form:"limit[teams],omitempty" json:"limit[teams],omitempty"`
+}
+
+// GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets defines parameters for GameCenterMatchmakingRuleSetsGetInstance.
+type GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRuleSets string
+
+// GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams defines parameters for GameCenterMatchmakingRuleSetsGetInstance.
+type GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingTeams string
+
+// GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules defines parameters for GameCenterMatchmakingRuleSetsGetInstance.
+type GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingRules string
+
+// GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues defines parameters for GameCenterMatchmakingRuleSetsGetInstance.
+type GameCenterMatchmakingRuleSetsGetInstanceParamsFieldsGameCenterMatchmakingQueues string
+
+// GameCenterMatchmakingRuleSetsGetInstanceParamsInclude defines parameters for GameCenterMatchmakingRuleSetsGetInstance.
+type GameCenterMatchmakingRuleSetsGetInstanceParamsInclude string
+
+// GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams defines parameters for GameCenterMatchmakingRuleSetsRulesGetToManyRelated.
+type GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams struct {
+	// FieldsGameCenterMatchmakingRules the fields to include for returned resources of type gameCenterMatchmakingRules
+	FieldsGameCenterMatchmakingRules *[]GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules `form:"fields[gameCenterMatchmakingRules],omitempty" json:"fields[gameCenterMatchmakingRules],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules defines parameters for GameCenterMatchmakingRuleSetsRulesGetToManyRelated.
+type GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParamsFieldsGameCenterMatchmakingRules string
+
+// GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams defines parameters for GameCenterMatchmakingRuleSetsTeamsGetToManyRelated.
+type GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams struct {
+	// FieldsGameCenterMatchmakingTeams the fields to include for returned resources of type gameCenterMatchmakingTeams
+	FieldsGameCenterMatchmakingTeams *[]GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams `form:"fields[gameCenterMatchmakingTeams],omitempty" json:"fields[gameCenterMatchmakingTeams],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams defines parameters for GameCenterMatchmakingRuleSetsTeamsGetToManyRelated.
+type GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParamsFieldsGameCenterMatchmakingTeams string
+
 // InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
 type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams struct {
 	// FieldsInAppPurchaseAppStoreReviewScreenshots the fields to include for returned resources of type inAppPurchaseAppStoreReviewScreenshots
@@ -103536,6 +104908,30 @@ type GameCenterLeaderboardSetMemberLocalizationsCreateInstanceJSONRequestBody = 
 
 // GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceJSONRequestBody defines body for GameCenterLeaderboardSetMemberLocalizationsUpdateInstance for application/json ContentType.
 type GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceJSONRequestBody = GameCenterLeaderboardSetMemberLocalizationUpdateRequest
+
+// GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody defines body for GameCenterMatchmakingQueuesCreateInstance for application/json ContentType.
+type GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody = GameCenterMatchmakingQueueCreateRequest
+
+// GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody defines body for GameCenterMatchmakingQueuesUpdateInstance for application/json ContentType.
+type GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody = GameCenterMatchmakingQueueUpdateRequest
+
+// GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody defines body for GameCenterMatchmakingRuleSetsCreateInstance for application/json ContentType.
+type GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody = GameCenterMatchmakingRuleSetCreateRequest
+
+// GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody defines body for GameCenterMatchmakingRuleSetsUpdateInstance for application/json ContentType.
+type GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody = GameCenterMatchmakingRuleSetUpdateRequest
+
+// GameCenterMatchmakingRulesCreateInstanceJSONRequestBody defines body for GameCenterMatchmakingRulesCreateInstance for application/json ContentType.
+type GameCenterMatchmakingRulesCreateInstanceJSONRequestBody = GameCenterMatchmakingRuleCreateRequest
+
+// GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody defines body for GameCenterMatchmakingRulesUpdateInstance for application/json ContentType.
+type GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody = GameCenterMatchmakingRuleUpdateRequest
+
+// GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody defines body for GameCenterMatchmakingTeamsCreateInstance for application/json ContentType.
+type GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody = GameCenterMatchmakingTeamCreateRequest
+
+// GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody defines body for GameCenterMatchmakingTeamsUpdateInstance for application/json ContentType.
+type GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody = GameCenterMatchmakingTeamUpdateRequest
 
 // InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody defines body for InAppPurchaseAppStoreReviewScreenshotsCreateInstance for application/json ContentType.
 type InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody = InAppPurchaseAppStoreReviewScreenshotCreateRequest
@@ -122618,6 +124014,280 @@ func (t *GameCenterLeaderboardsV2Response_Included_Item) UnmarshalJSON(b []byte)
 	return err
 }
 
+// AsGameCenterMatchmakingQueue returns the union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item as a GameCenterMatchmakingQueue
+func (t GameCenterMatchmakingRuleSetResponse_Included_Item) AsGameCenterMatchmakingQueue() (GameCenterMatchmakingQueue, error) {
+	var body GameCenterMatchmakingQueue
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterMatchmakingQueue overwrites any union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item as the provided GameCenterMatchmakingQueue
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) FromGameCenterMatchmakingQueue(v GameCenterMatchmakingQueue) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingQueues"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterMatchmakingQueue performs a merge with any union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item, using the provided GameCenterMatchmakingQueue
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) MergeGameCenterMatchmakingQueue(v GameCenterMatchmakingQueue) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingQueues"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterMatchmakingRule returns the union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item as a GameCenterMatchmakingRule
+func (t GameCenterMatchmakingRuleSetResponse_Included_Item) AsGameCenterMatchmakingRule() (GameCenterMatchmakingRule, error) {
+	var body GameCenterMatchmakingRule
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterMatchmakingRule overwrites any union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item as the provided GameCenterMatchmakingRule
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) FromGameCenterMatchmakingRule(v GameCenterMatchmakingRule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingRules"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterMatchmakingRule performs a merge with any union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item, using the provided GameCenterMatchmakingRule
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) MergeGameCenterMatchmakingRule(v GameCenterMatchmakingRule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingRules"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterMatchmakingTeam returns the union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item as a GameCenterMatchmakingTeam
+func (t GameCenterMatchmakingRuleSetResponse_Included_Item) AsGameCenterMatchmakingTeam() (GameCenterMatchmakingTeam, error) {
+	var body GameCenterMatchmakingTeam
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterMatchmakingTeam overwrites any union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item as the provided GameCenterMatchmakingTeam
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) FromGameCenterMatchmakingTeam(v GameCenterMatchmakingTeam) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingTeams"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterMatchmakingTeam performs a merge with any union data inside the GameCenterMatchmakingRuleSetResponse_Included_Item, using the provided GameCenterMatchmakingTeam
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) MergeGameCenterMatchmakingTeam(v GameCenterMatchmakingTeam) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingTeams"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterMatchmakingRuleSetResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterMatchmakingRuleSetResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterMatchmakingQueues":
+		return t.AsGameCenterMatchmakingQueue()
+	case "gameCenterMatchmakingRules":
+		return t.AsGameCenterMatchmakingRule()
+	case "gameCenterMatchmakingTeams":
+		return t.AsGameCenterMatchmakingTeam()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterMatchmakingRuleSetResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterMatchmakingRuleSetResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterMatchmakingQueue returns the union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item as a GameCenterMatchmakingQueue
+func (t GameCenterMatchmakingRuleSetsResponse_Included_Item) AsGameCenterMatchmakingQueue() (GameCenterMatchmakingQueue, error) {
+	var body GameCenterMatchmakingQueue
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterMatchmakingQueue overwrites any union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item as the provided GameCenterMatchmakingQueue
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) FromGameCenterMatchmakingQueue(v GameCenterMatchmakingQueue) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingQueues"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterMatchmakingQueue performs a merge with any union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item, using the provided GameCenterMatchmakingQueue
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) MergeGameCenterMatchmakingQueue(v GameCenterMatchmakingQueue) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingQueues"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterMatchmakingRule returns the union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item as a GameCenterMatchmakingRule
+func (t GameCenterMatchmakingRuleSetsResponse_Included_Item) AsGameCenterMatchmakingRule() (GameCenterMatchmakingRule, error) {
+	var body GameCenterMatchmakingRule
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterMatchmakingRule overwrites any union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item as the provided GameCenterMatchmakingRule
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) FromGameCenterMatchmakingRule(v GameCenterMatchmakingRule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingRules"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterMatchmakingRule performs a merge with any union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item, using the provided GameCenterMatchmakingRule
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) MergeGameCenterMatchmakingRule(v GameCenterMatchmakingRule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingRules"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterMatchmakingTeam returns the union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item as a GameCenterMatchmakingTeam
+func (t GameCenterMatchmakingRuleSetsResponse_Included_Item) AsGameCenterMatchmakingTeam() (GameCenterMatchmakingTeam, error) {
+	var body GameCenterMatchmakingTeam
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterMatchmakingTeam overwrites any union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item as the provided GameCenterMatchmakingTeam
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) FromGameCenterMatchmakingTeam(v GameCenterMatchmakingTeam) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingTeams"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterMatchmakingTeam performs a merge with any union data inside the GameCenterMatchmakingRuleSetsResponse_Included_Item, using the provided GameCenterMatchmakingTeam
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) MergeGameCenterMatchmakingTeam(v GameCenterMatchmakingTeam) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterMatchmakingTeams"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterMatchmakingRuleSetsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterMatchmakingRuleSetsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterMatchmakingQueues":
+		return t.AsGameCenterMatchmakingQueue()
+	case "gameCenterMatchmakingRules":
+		return t.AsGameCenterMatchmakingRule()
+	case "gameCenterMatchmakingTeams":
+		return t.AsGameCenterMatchmakingTeam()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterMatchmakingRuleSetsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterMatchmakingRuleSetsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsInAppPurchaseOfferCodeCustomCode returns the union data inside the InAppPurchaseOfferCodeResponse_Included_Item as a InAppPurchaseOfferCodeCustomCode
 func (t InAppPurchaseOfferCodeResponse_Included_Item) AsInAppPurchaseOfferCodeCustomCode() (InAppPurchaseOfferCodeCustomCode, error) {
 	var body InAppPurchaseOfferCodeCustomCode
@@ -131623,6 +133293,100 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	GameCenterLeaderboardSetMemberLocalizationsUpdateInstance(ctx context.Context, id string, body GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// GameCenterMatchmakingQueuesGetCollection performs a GET /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesGetCollection` operationId) request.
+	GameCenterMatchmakingQueuesGetCollection(ctx context.Context, params *GameCenterMatchmakingQueuesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingQueuesCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingQueuesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingQueuesCreateInstance performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingQueuesCreateInstance(ctx context.Context, body GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingQueuesDeleteInstance performs a DELETE /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesDeleteInstance` operationId) request.
+	GameCenterMatchmakingQueuesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingQueuesGetInstance performs a GET /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesGetInstance` operationId) request.
+	GameCenterMatchmakingQueuesGetInstance(ctx context.Context, id string, params *GameCenterMatchmakingQueuesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingQueuesUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingQueuesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingQueuesUpdateInstance performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingQueuesUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsGetCollection performs a GET /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsGetCollection` operationId) request.
+	GameCenterMatchmakingRuleSetsGetCollection(ctx context.Context, params *GameCenterMatchmakingRuleSetsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingRuleSetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsCreateInstance performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingRuleSetsCreateInstance(ctx context.Context, body GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsDeleteInstance performs a DELETE /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsDeleteInstance` operationId) request.
+	GameCenterMatchmakingRuleSetsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsGetInstance performs a GET /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsGetInstance` operationId) request.
+	GameCenterMatchmakingRuleSetsGetInstance(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingRuleSetsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsUpdateInstance performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingRuleSetsUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsRulesGetToManyRelated performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/rules (the `GameCenterMatchmakingRuleSetsRulesGetToManyRelated` operationId) request.
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelated(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRuleSetsTeamsGetToManyRelated performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/teams (the `GameCenterMatchmakingRuleSetsTeamsGetToManyRelated` operationId) request.
+	GameCenterMatchmakingRuleSetsTeamsGetToManyRelated(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRulesCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingRulesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRulesCreateInstance performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingRulesCreateInstance(ctx context.Context, body GameCenterMatchmakingRulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRulesDeleteInstance performs a DELETE /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesDeleteInstance` operationId) request.
+	GameCenterMatchmakingRulesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRulesUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingRulesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingRulesUpdateInstance performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingRulesUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingTeamsCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingTeamsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingTeamsCreateInstance performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingTeamsCreateInstance(ctx context.Context, body GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingTeamsDeleteInstance performs a DELETE /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsDeleteInstance` operationId) request.
+	GameCenterMatchmakingTeamsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingTeamsUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterMatchmakingTeamsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterMatchmakingTeamsUpdateInstance performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterMatchmakingTeamsUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -139828,6 +141592,360 @@ func (c *Client) GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceWithBo
 // Takes a body of the `application/json` content type.
 func (c *Client) GameCenterLeaderboardSetMemberLocalizationsUpdateInstance(ctx context.Context, id string, body GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewGameCenterLeaderboardSetMemberLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesGetCollection performs a GET /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesGetCollection` operationId) request.
+func (c *Client) GameCenterMatchmakingQueuesGetCollection(ctx context.Context, params *GameCenterMatchmakingQueuesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingQueuesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesCreateInstance performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingQueuesCreateInstance(ctx context.Context, body GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesDeleteInstance performs a DELETE /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesDeleteInstance` operationId) request.
+func (c *Client) GameCenterMatchmakingQueuesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesGetInstance performs a GET /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesGetInstance` operationId) request.
+func (c *Client) GameCenterMatchmakingQueuesGetInstance(ctx context.Context, id string, params *GameCenterMatchmakingQueuesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingQueuesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingQueuesUpdateInstance performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingQueuesUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingQueuesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsGetCollection performs a GET /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsGetCollection` operationId) request.
+func (c *Client) GameCenterMatchmakingRuleSetsGetCollection(ctx context.Context, params *GameCenterMatchmakingRuleSetsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingRuleSetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsCreateInstance performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingRuleSetsCreateInstance(ctx context.Context, body GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsDeleteInstance performs a DELETE /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsDeleteInstance` operationId) request.
+func (c *Client) GameCenterMatchmakingRuleSetsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsGetInstance performs a GET /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsGetInstance` operationId) request.
+func (c *Client) GameCenterMatchmakingRuleSetsGetInstance(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingRuleSetsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsUpdateInstance performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingRuleSetsUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsRulesGetToManyRelated performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/rules (the `GameCenterMatchmakingRuleSetsRulesGetToManyRelated` operationId) request.
+func (c *Client) GameCenterMatchmakingRuleSetsRulesGetToManyRelated(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsRulesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRuleSetsTeamsGetToManyRelated performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/teams (the `GameCenterMatchmakingRuleSetsTeamsGetToManyRelated` operationId) request.
+func (c *Client) GameCenterMatchmakingRuleSetsTeamsGetToManyRelated(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRuleSetsTeamsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRulesCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingRulesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRulesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRulesCreateInstance performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingRulesCreateInstance(ctx context.Context, body GameCenterMatchmakingRulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRulesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRulesDeleteInstance performs a DELETE /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesDeleteInstance` operationId) request.
+func (c *Client) GameCenterMatchmakingRulesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRulesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRulesUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingRulesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRulesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingRulesUpdateInstance performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingRulesUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingRulesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingTeamsCreateInstanceWithBody performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingTeamsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingTeamsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingTeamsCreateInstance performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingTeamsCreateInstance(ctx context.Context, body GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingTeamsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingTeamsDeleteInstance performs a DELETE /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsDeleteInstance` operationId) request.
+func (c *Client) GameCenterMatchmakingTeamsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingTeamsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingTeamsUpdateInstanceWithBody performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterMatchmakingTeamsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingTeamsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterMatchmakingTeamsUpdateInstance performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterMatchmakingTeamsUpdateInstance(ctx context.Context, id string, body GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterMatchmakingTeamsUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -175415,6 +177533,1106 @@ func NewGameCenterLeaderboardSetMemberLocalizationsUpdateInstanceRequestWithBody
 	return req, nil
 }
 
+// NewGameCenterMatchmakingQueuesGetCollectionRequest constructs an http.Request for the GameCenterMatchmakingQueuesGetCollection method
+func NewGameCenterMatchmakingQueuesGetCollectionRequest(server string, params *GameCenterMatchmakingQueuesGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingQueues")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterMatchmakingQueues != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingQueues]", *params.FieldsGameCenterMatchmakingQueues, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingRuleSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRuleSets]", *params.FieldsGameCenterMatchmakingRuleSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingQueuesCreateInstanceRequest calls the generic GameCenterMatchmakingQueuesCreateInstance builder with application/json body
+func NewGameCenterMatchmakingQueuesCreateInstanceRequest(server string, body GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingQueuesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingQueuesCreateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingQueuesCreateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingQueuesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingQueues")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingQueuesDeleteInstanceRequest constructs an http.Request for the GameCenterMatchmakingQueuesDeleteInstance method
+func NewGameCenterMatchmakingQueuesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingQueues/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingQueuesGetInstanceRequest constructs an http.Request for the GameCenterMatchmakingQueuesGetInstance method
+func NewGameCenterMatchmakingQueuesGetInstanceRequest(server string, id string, params *GameCenterMatchmakingQueuesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingQueues/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterMatchmakingQueues != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingQueues]", *params.FieldsGameCenterMatchmakingQueues, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingRuleSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRuleSets]", *params.FieldsGameCenterMatchmakingRuleSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingQueuesUpdateInstanceRequest calls the generic GameCenterMatchmakingQueuesUpdateInstance builder with application/json body
+func NewGameCenterMatchmakingQueuesUpdateInstanceRequest(server string, id string, body GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingQueuesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingQueuesUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingQueuesUpdateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingQueuesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingQueues/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsGetCollectionRequest constructs an http.Request for the GameCenterMatchmakingRuleSetsGetCollection method
+func NewGameCenterMatchmakingRuleSetsGetCollectionRequest(server string, params *GameCenterMatchmakingRuleSetsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterMatchmakingRuleSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRuleSets]", *params.FieldsGameCenterMatchmakingRuleSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingTeams != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingTeams]", *params.FieldsGameCenterMatchmakingTeams, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingRules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRules]", *params.FieldsGameCenterMatchmakingRules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingQueues != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingQueues]", *params.FieldsGameCenterMatchmakingQueues, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitMatchmakingQueues != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[matchmakingQueues]", *params.LimitMatchmakingQueues, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[rules]", *params.LimitRules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitTeams != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[teams]", *params.LimitTeams, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsCreateInstanceRequest calls the generic GameCenterMatchmakingRuleSetsCreateInstance builder with application/json body
+func NewGameCenterMatchmakingRuleSetsCreateInstanceRequest(server string, body GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingRuleSetsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingRuleSetsCreateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingRuleSetsCreateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingRuleSetsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsDeleteInstanceRequest constructs an http.Request for the GameCenterMatchmakingRuleSetsDeleteInstance method
+func NewGameCenterMatchmakingRuleSetsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsGetInstanceRequest constructs an http.Request for the GameCenterMatchmakingRuleSetsGetInstance method
+func NewGameCenterMatchmakingRuleSetsGetInstanceRequest(server string, id string, params *GameCenterMatchmakingRuleSetsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterMatchmakingRuleSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRuleSets]", *params.FieldsGameCenterMatchmakingRuleSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingTeams != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingTeams]", *params.FieldsGameCenterMatchmakingTeams, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingRules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRules]", *params.FieldsGameCenterMatchmakingRules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterMatchmakingQueues != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingQueues]", *params.FieldsGameCenterMatchmakingQueues, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitMatchmakingQueues != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[matchmakingQueues]", *params.LimitMatchmakingQueues, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[rules]", *params.LimitRules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitTeams != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[teams]", *params.LimitTeams, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsUpdateInstanceRequest calls the generic GameCenterMatchmakingRuleSetsUpdateInstance builder with application/json body
+func NewGameCenterMatchmakingRuleSetsUpdateInstanceRequest(server string, id string, body GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingRuleSetsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingRuleSetsUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingRuleSetsUpdateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingRuleSetsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsRulesGetToManyRelatedRequest constructs an http.Request for the GameCenterMatchmakingRuleSetsRulesGetToManyRelated method
+func NewGameCenterMatchmakingRuleSetsRulesGetToManyRelatedRequest(server string, id string, params *GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets/%s/rules", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterMatchmakingRules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingRules]", *params.FieldsGameCenterMatchmakingRules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRuleSetsTeamsGetToManyRelatedRequest constructs an http.Request for the GameCenterMatchmakingRuleSetsTeamsGetToManyRelated method
+func NewGameCenterMatchmakingRuleSetsTeamsGetToManyRelatedRequest(server string, id string, params *GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRuleSets/%s/teams", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterMatchmakingTeams != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterMatchmakingTeams]", *params.FieldsGameCenterMatchmakingTeams, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRulesCreateInstanceRequest calls the generic GameCenterMatchmakingRulesCreateInstance builder with application/json body
+func NewGameCenterMatchmakingRulesCreateInstanceRequest(server string, body GameCenterMatchmakingRulesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingRulesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingRulesCreateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingRulesCreateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingRulesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRules")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRulesDeleteInstanceRequest constructs an http.Request for the GameCenterMatchmakingRulesDeleteInstance method
+func NewGameCenterMatchmakingRulesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRules/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingRulesUpdateInstanceRequest calls the generic GameCenterMatchmakingRulesUpdateInstance builder with application/json body
+func NewGameCenterMatchmakingRulesUpdateInstanceRequest(server string, id string, body GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingRulesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingRulesUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingRulesUpdateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingRulesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingRules/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingTeamsCreateInstanceRequest calls the generic GameCenterMatchmakingTeamsCreateInstance builder with application/json body
+func NewGameCenterMatchmakingTeamsCreateInstanceRequest(server string, body GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingTeamsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingTeamsCreateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingTeamsCreateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingTeamsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingTeams")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingTeamsDeleteInstanceRequest constructs an http.Request for the GameCenterMatchmakingTeamsDeleteInstance method
+func NewGameCenterMatchmakingTeamsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingTeams/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterMatchmakingTeamsUpdateInstanceRequest calls the generic GameCenterMatchmakingTeamsUpdateInstance builder with application/json body
+func NewGameCenterMatchmakingTeamsUpdateInstanceRequest(server string, id string, body GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterMatchmakingTeamsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterMatchmakingTeamsUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterMatchmakingTeamsUpdateInstance method, with any body, and a specified content type
+func NewGameCenterMatchmakingTeamsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterMatchmakingTeams/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequest calls the generic InAppPurchaseAppStoreReviewScreenshotsCreateInstance builder with application/json body
 func NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequest(server string, body InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -195486,6 +198704,136 @@ type ClientWithResponsesInterface interface {
 	// GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterLeaderboardSetMemberLocalizations/{id} (the `GameCenterLeaderboardSetMemberLocalizationsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingQueuesGetCollectionWithResponse performs a GET /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesGetCollectionWithResponse(ctx context.Context, params *GameCenterMatchmakingQueuesGetCollectionParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesGetCollectionResponse, error)
+
+	// GameCenterMatchmakingQueuesCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingQueuesCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingQueuesDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesDeleteInstanceResponse, error)
+
+	// GameCenterMatchmakingQueuesGetInstanceWithResponse performs a GET /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesGetInstanceWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingQueuesGetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesGetInstanceResponse, error)
+
+	// GameCenterMatchmakingQueuesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingQueuesUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingQueuesUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsGetCollectionWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsGetCollectionWithResponse(ctx context.Context, params *GameCenterMatchmakingRuleSetsGetCollectionParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsGetCollectionResponse, error)
+
+	// GameCenterMatchmakingRuleSetsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsDeleteInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsGetInstanceWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsGetInstanceWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsGetInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingRuleSetsRulesGetToManyRelatedWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/rules (the `GameCenterMatchmakingRuleSetsRulesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse, error)
+
+	// GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/teams (the `GameCenterMatchmakingRuleSetsTeamsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse, error)
+
+	// GameCenterMatchmakingRulesCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRulesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingRulesCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRulesCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingRulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingRulesDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRulesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesDeleteInstanceResponse, error)
+
+	// GameCenterMatchmakingRulesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRulesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingRulesUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingRulesUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingTeamsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingTeamsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingTeamsCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingTeamsCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsCreateInstanceResponse, error)
+
+	// GameCenterMatchmakingTeamsDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingTeamsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsDeleteInstanceResponse, error)
+
+	// GameCenterMatchmakingTeamsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingTeamsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsUpdateInstanceResponse, error)
+
+	// GameCenterMatchmakingTeamsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterMatchmakingTeamsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsUpdateInstanceResponse, error)
 
 	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -225543,6 +228891,1416 @@ func (r GameCenterLeaderboardSetMemberLocalizationsUpdateInstanceResponse) Conte
 	return ""
 }
 
+type GameCenterMatchmakingQueuesGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingQueuesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) GetJSON200() *GameCenterMatchmakingQueuesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingQueuesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingQueuesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterMatchmakingQueueResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON201() *GameCenterMatchmakingQueueResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingQueuesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingQueuesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingQueuesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingQueuesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingQueueResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetJSON200() *GameCenterMatchmakingQueueResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingQueuesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingQueuesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingQueueResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON200() *GameCenterMatchmakingQueueResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingQueuesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingRuleSetsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) GetJSON200() *GameCenterMatchmakingRuleSetsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterMatchmakingRuleSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON201() *GameCenterMatchmakingRuleSetResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingRuleSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetJSON200() *GameCenterMatchmakingRuleSetResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingRuleSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON200() *GameCenterMatchmakingRuleSetResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingRulesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetJSON200() *GameCenterMatchmakingRulesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingTeamsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetJSON200() *GameCenterMatchmakingTeamsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRulesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterMatchmakingRuleResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON201() *GameCenterMatchmakingRuleResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRulesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRulesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRulesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingRulesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingRuleResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON200() *GameCenterMatchmakingRuleResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingRulesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingTeamsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterMatchmakingTeamResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON201() *GameCenterMatchmakingTeamResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingTeamsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingTeamsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingTeamsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterMatchmakingTeamsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterMatchmakingTeamResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON200() *GameCenterMatchmakingTeamResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterMatchmakingTeamsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -250423,6 +255181,292 @@ func (c *ClientWithResponses) GameCenterLeaderboardSetMemberLocalizationsUpdateI
 		return nil, err
 	}
 	return ParseGameCenterLeaderboardSetMemberLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesGetCollectionWithResponse performs a GET /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesGetCollectionWithResponse(ctx context.Context, params *GameCenterMatchmakingQueuesGetCollectionParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesGetCollectionResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesGetCollectionResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingQueues (the `GameCenterMatchmakingQueuesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingQueuesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesDeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesDeleteInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesGetInstanceWithResponse performs a GET /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesGetInstanceWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingQueuesGetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesGetInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesGetInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingQueuesUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingQueues/{id} (the `GameCenterMatchmakingQueuesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingQueuesUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingQueuesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingQueuesUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingQueuesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingQueuesUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsGetCollectionWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsGetCollectionWithResponse(ctx context.Context, params *GameCenterMatchmakingRuleSetsGetCollectionParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsGetCollectionResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsGetCollectionResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingRuleSets (the `GameCenterMatchmakingRuleSetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingRuleSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsDeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsDeleteInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsGetInstanceWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsGetInstanceWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsGetInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsGetInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingRuleSets/{id} (the `GameCenterMatchmakingRuleSetsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingRuleSetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsRulesGetToManyRelatedWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/rules (the `GameCenterMatchmakingRuleSetsRulesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsRulesGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsRulesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse(rsp)
+}
+
+// GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedWithResponse performs a GET /v1/gameCenterMatchmakingRuleSets/{id}/teams (the `GameCenterMatchmakingRuleSetsTeamsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRuleSetsTeamsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse(rsp)
+}
+
+// GameCenterMatchmakingRulesCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRulesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRulesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRulesCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRulesCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingRules (the `GameCenterMatchmakingRulesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRulesCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingRulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRulesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRulesCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRulesDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRulesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesDeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRulesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRulesDeleteInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRulesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRulesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRulesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRulesUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingRulesUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingRules/{id} (the `GameCenterMatchmakingRulesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingRulesUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingRulesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingRulesUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingRulesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingRulesUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingTeamsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingTeamsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingTeamsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingTeamsCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingTeamsCreateInstanceWithResponse performs a POST /v1/gameCenterMatchmakingTeams (the `GameCenterMatchmakingTeamsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingTeamsCreateInstanceWithResponse(ctx context.Context, body GameCenterMatchmakingTeamsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingTeamsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingTeamsCreateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingTeamsDeleteInstanceWithResponse performs a DELETE /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingTeamsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsDeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingTeamsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingTeamsDeleteInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingTeamsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingTeamsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingTeamsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingTeamsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterMatchmakingTeamsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterMatchmakingTeams/{id} (the `GameCenterMatchmakingTeamsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterMatchmakingTeamsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterMatchmakingTeamsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterMatchmakingTeamsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterMatchmakingTeamsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterMatchmakingTeamsUpdateInstanceResponse(rsp)
 }
 
 // InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
@@ -277432,6 +282476,1158 @@ func ParseGameCenterLeaderboardSetMemberLocalizationsUpdateInstanceResponse(rsp 
 	return response, nil
 }
 
+// ParseGameCenterMatchmakingQueuesGetCollectionResponse parses an HTTP response from a GameCenterMatchmakingQueuesGetCollectionWithResponse call
+func ParseGameCenterMatchmakingQueuesGetCollectionResponse(rsp *http.Response) (*GameCenterMatchmakingQueuesGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingQueuesGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingQueuesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingQueuesCreateInstanceResponse parses an HTTP response from a GameCenterMatchmakingQueuesCreateInstanceWithResponse call
+func ParseGameCenterMatchmakingQueuesCreateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingQueuesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingQueuesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterMatchmakingQueueResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingQueuesDeleteInstanceResponse parses an HTTP response from a GameCenterMatchmakingQueuesDeleteInstanceWithResponse call
+func ParseGameCenterMatchmakingQueuesDeleteInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingQueuesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingQueuesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingQueuesGetInstanceResponse parses an HTTP response from a GameCenterMatchmakingQueuesGetInstanceWithResponse call
+func ParseGameCenterMatchmakingQueuesGetInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingQueuesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingQueuesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingQueueResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingQueuesUpdateInstanceResponse parses an HTTP response from a GameCenterMatchmakingQueuesUpdateInstanceWithResponse call
+func ParseGameCenterMatchmakingQueuesUpdateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingQueuesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingQueuesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingQueueResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsGetCollectionResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsGetCollectionWithResponse call
+func ParseGameCenterMatchmakingRuleSetsGetCollectionResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingRuleSetsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsCreateInstanceResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsCreateInstanceWithResponse call
+func ParseGameCenterMatchmakingRuleSetsCreateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterMatchmakingRuleSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsDeleteInstanceResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsDeleteInstanceWithResponse call
+func ParseGameCenterMatchmakingRuleSetsDeleteInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsGetInstanceResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsGetInstanceWithResponse call
+func ParseGameCenterMatchmakingRuleSetsGetInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingRuleSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsUpdateInstanceResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsUpdateInstanceWithResponse call
+func ParseGameCenterMatchmakingRuleSetsUpdateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingRuleSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsRulesGetToManyRelatedWithResponse call
+func ParseGameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsRulesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingRulesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse parses an HTTP response from a GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedWithResponse call
+func ParseGameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse(rsp *http.Response) (*GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingTeamsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRulesCreateInstanceResponse parses an HTTP response from a GameCenterMatchmakingRulesCreateInstanceWithResponse call
+func ParseGameCenterMatchmakingRulesCreateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRulesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRulesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterMatchmakingRuleResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRulesDeleteInstanceResponse parses an HTTP response from a GameCenterMatchmakingRulesDeleteInstanceWithResponse call
+func ParseGameCenterMatchmakingRulesDeleteInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRulesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRulesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingRulesUpdateInstanceResponse parses an HTTP response from a GameCenterMatchmakingRulesUpdateInstanceWithResponse call
+func ParseGameCenterMatchmakingRulesUpdateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingRulesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingRulesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingRuleResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingTeamsCreateInstanceResponse parses an HTTP response from a GameCenterMatchmakingTeamsCreateInstanceWithResponse call
+func ParseGameCenterMatchmakingTeamsCreateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingTeamsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingTeamsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterMatchmakingTeamResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingTeamsDeleteInstanceResponse parses an HTTP response from a GameCenterMatchmakingTeamsDeleteInstanceWithResponse call
+func ParseGameCenterMatchmakingTeamsDeleteInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingTeamsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingTeamsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterMatchmakingTeamsUpdateInstanceResponse parses an HTTP response from a GameCenterMatchmakingTeamsUpdateInstanceWithResponse call
+func ParseGameCenterMatchmakingTeamsUpdateInstanceResponse(rsp *http.Response) (*GameCenterMatchmakingTeamsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterMatchmakingTeamsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterMatchmakingTeamResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseInAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse parses an HTTP response from a InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithResponse call
 func ParseInAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse(rsp *http.Response) (*InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -294276,6 +300472,60 @@ type ServerInterface interface {
 
 	// (PATCH /v1/gameCenterLeaderboardSetMemberLocalizations/{id})
 	GameCenterLeaderboardSetMemberLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterMatchmakingQueues)
+	GameCenterMatchmakingQueuesGetCollection(w http.ResponseWriter, r *http.Request, params GameCenterMatchmakingQueuesGetCollectionParams)
+
+	// (POST /v1/gameCenterMatchmakingQueues)
+	GameCenterMatchmakingQueuesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/gameCenterMatchmakingQueues/{id})
+	GameCenterMatchmakingQueuesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterMatchmakingQueues/{id})
+	GameCenterMatchmakingQueuesGetInstance(w http.ResponseWriter, r *http.Request, id string, params GameCenterMatchmakingQueuesGetInstanceParams)
+
+	// (PATCH /v1/gameCenterMatchmakingQueues/{id})
+	GameCenterMatchmakingQueuesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterMatchmakingRuleSets)
+	GameCenterMatchmakingRuleSetsGetCollection(w http.ResponseWriter, r *http.Request, params GameCenterMatchmakingRuleSetsGetCollectionParams)
+
+	// (POST /v1/gameCenterMatchmakingRuleSets)
+	GameCenterMatchmakingRuleSetsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/gameCenterMatchmakingRuleSets/{id})
+	GameCenterMatchmakingRuleSetsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterMatchmakingRuleSets/{id})
+	GameCenterMatchmakingRuleSetsGetInstance(w http.ResponseWriter, r *http.Request, id string, params GameCenterMatchmakingRuleSetsGetInstanceParams)
+
+	// (PATCH /v1/gameCenterMatchmakingRuleSets/{id})
+	GameCenterMatchmakingRuleSetsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterMatchmakingRuleSets/{id}/rules)
+	GameCenterMatchmakingRuleSetsRulesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams)
+
+	// (GET /v1/gameCenterMatchmakingRuleSets/{id}/teams)
+	GameCenterMatchmakingRuleSetsTeamsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams)
+
+	// (POST /v1/gameCenterMatchmakingRules)
+	GameCenterMatchmakingRulesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/gameCenterMatchmakingRules/{id})
+	GameCenterMatchmakingRulesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterMatchmakingRules/{id})
+	GameCenterMatchmakingRulesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/gameCenterMatchmakingTeams)
+	GameCenterMatchmakingTeamsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/gameCenterMatchmakingTeams/{id})
+	GameCenterMatchmakingTeamsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/gameCenterMatchmakingTeams/{id})
+	GameCenterMatchmakingTeamsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (POST /v1/inAppPurchaseAppStoreReviewScreenshots)
 	InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -319849,6 +326099,790 @@ func (siw *ServerInterfaceWrapper) GameCenterLeaderboardSetMemberLocalizationsUp
 	handler.ServeHTTP(w, r)
 }
 
+// GameCenterMatchmakingQueuesGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingQueuesGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterMatchmakingQueuesGetCollectionParams
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingQueues]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingQueues]", r.URL.Query(), &params.FieldsGameCenterMatchmakingQueues, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingQueues]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingQueues]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRuleSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRuleSets]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRuleSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRuleSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRuleSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingQueuesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingQueuesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingQueuesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingQueuesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingQueuesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingQueuesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingQueuesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingQueuesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingQueuesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterMatchmakingQueuesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingQueues]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingQueues]", r.URL.Query(), &params.FieldsGameCenterMatchmakingQueues, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingQueues]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingQueues]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRuleSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRuleSets]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRuleSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRuleSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRuleSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingQueuesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingQueuesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingQueuesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingQueuesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterMatchmakingRuleSetsGetCollectionParams
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRuleSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRuleSets]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRuleSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRuleSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRuleSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingTeams]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingTeams]", r.URL.Query(), &params.FieldsGameCenterMatchmakingTeams, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingTeams]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingTeams]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRules]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRules, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingQueues]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingQueues]", r.URL.Query(), &params.FieldsGameCenterMatchmakingQueues, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingQueues]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingQueues]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[matchmakingQueues]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[matchmakingQueues]", r.URL.Query(), &params.LimitMatchmakingQueues, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[matchmakingQueues]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[matchmakingQueues]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[rules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[rules]", r.URL.Query(), &params.LimitRules, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[rules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[rules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[teams]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[teams]", r.URL.Query(), &params.LimitTeams, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[teams]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[teams]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterMatchmakingRuleSetsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRuleSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRuleSets]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRuleSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRuleSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRuleSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingTeams]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingTeams]", r.URL.Query(), &params.FieldsGameCenterMatchmakingTeams, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingTeams]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingTeams]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRules]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRules, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingQueues]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingQueues]", r.URL.Query(), &params.FieldsGameCenterMatchmakingQueues, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingQueues]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingQueues]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[matchmakingQueues]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[matchmakingQueues]", r.URL.Query(), &params.LimitMatchmakingQueues, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[matchmakingQueues]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[matchmakingQueues]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[rules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[rules]", r.URL.Query(), &params.LimitRules, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[rules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[rules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[teams]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[teams]", r.URL.Query(), &params.LimitTeams, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[teams]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[teams]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsRulesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsRulesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterMatchmakingRuleSetsRulesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingRules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingRules]", r.URL.Query(), &params.FieldsGameCenterMatchmakingRules, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingRules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingRules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsRulesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRuleSetsTeamsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRuleSetsTeamsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterMatchmakingRuleSetsTeamsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterMatchmakingTeams]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterMatchmakingTeams]", r.URL.Query(), &params.FieldsGameCenterMatchmakingTeams, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterMatchmakingTeams]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterMatchmakingTeams]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRuleSetsTeamsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRulesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRulesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRulesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRulesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRulesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRulesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingRulesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingRulesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingRulesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingTeamsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingTeamsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingTeamsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingTeamsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingTeamsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingTeamsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterMatchmakingTeamsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterMatchmakingTeamsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterMatchmakingTeamsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // InAppPurchaseAppStoreReviewScreenshotsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -333566,6 +340600,24 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterLeaderboardSetMemberLocalizations", wrapper.GameCenterLeaderboardSetMemberLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterLeaderboardSetMemberLocalizations/{id}", wrapper.GameCenterLeaderboardSetMemberLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterLeaderboardSetMemberLocalizations/{id}", wrapper.GameCenterLeaderboardSetMemberLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterMatchmakingQueues", wrapper.GameCenterMatchmakingQueuesGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterMatchmakingQueues", wrapper.GameCenterMatchmakingQueuesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterMatchmakingQueues/{id}", wrapper.GameCenterMatchmakingQueuesDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterMatchmakingQueues/{id}", wrapper.GameCenterMatchmakingQueuesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterMatchmakingQueues/{id}", wrapper.GameCenterMatchmakingQueuesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets", wrapper.GameCenterMatchmakingRuleSetsGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets", wrapper.GameCenterMatchmakingRuleSetsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets/{id}", wrapper.GameCenterMatchmakingRuleSetsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets/{id}", wrapper.GameCenterMatchmakingRuleSetsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets/{id}", wrapper.GameCenterMatchmakingRuleSetsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets/{id}/rules", wrapper.GameCenterMatchmakingRuleSetsRulesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterMatchmakingRuleSets/{id}/teams", wrapper.GameCenterMatchmakingRuleSetsTeamsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterMatchmakingRules", wrapper.GameCenterMatchmakingRulesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterMatchmakingRules/{id}", wrapper.GameCenterMatchmakingRulesDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterMatchmakingRules/{id}", wrapper.GameCenterMatchmakingRulesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterMatchmakingTeams", wrapper.GameCenterMatchmakingTeamsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterMatchmakingTeams/{id}", wrapper.GameCenterMatchmakingTeamsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterMatchmakingTeams/{id}", wrapper.GameCenterMatchmakingTeamsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots", wrapper.InAppPurchaseAppStoreReviewScreenshotsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsGetInstance)

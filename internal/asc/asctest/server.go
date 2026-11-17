@@ -95,6 +95,7 @@ type Server struct {
 	analytics    *analyticsState
 	gameCenter   *gameCenterState
 	gcItems      *gcItemsState
+	matchmaking  map[string]*matchmakingObject
 
 	failNext map[string][]int
 	requests []string
@@ -153,6 +154,7 @@ func NewServer() *Server {
 		analytics:    newAnalyticsState(),
 		gameCenter:   newGameCenterState(),
 		gcItems:      newGCItemsState(),
+		matchmaking:  map[string]*matchmakingObject{},
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{
