@@ -138,8 +138,10 @@ func setStrings(ctx context.Context, set types.Set, diags *diag.Diagnostics) []s
 // listAll is the page size for listing every item of a collection.
 const listAll = 200
 
-// linkageLimit is the page size for relationship linkages.
-const linkageLimit = 1000
+// linkageLimit is the page size for relationship linkages. App Store Connect caps the limit of
+// every to-many relationship endpoint the provider reads at 200 (larger values are rejected with
+// PARAMETER_ERROR.INVALID); the reads follow links.next, so this only sets the page size.
+const linkageLimit = 200
 
 // emailRegexp loosely checks an email address; App Store Connect validates it.
 var emailRegexp = regexp.MustCompile(`^[^@\s]+@[^@\s]+$`)

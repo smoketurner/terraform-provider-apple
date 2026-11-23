@@ -240,4 +240,6 @@ func nonNil[T any](s []T) []T {
 	return s
 }
 
-const maxLinkageLimit = 1000
+// maxLinkageLimit is App Store Connect's maximum limit on to-many relationship endpoints
+// (200 in the OpenAPI spec); larger values get PARAMETER_ERROR.INVALID, as from Apple.
+const maxLinkageLimit = 200
